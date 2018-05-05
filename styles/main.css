@@ -3,10 +3,9 @@
 
 /* * is a wildcard referring to all elements. */
 
-* { margin: 1em; box-sizing: border-box 1em; } 
+* { margin: 1em; box-sizing: border-box; } 
 
-body { 
-    font-size: 16px; 
+body {  
     line-height: 32px;
     font-family: helvetica, sans-serif;
     color: slategrey;
@@ -19,12 +18,11 @@ h1 {
 }
 
 h2 {
-    font-size: 1.2em;
     text-align: center;
     border-bottom: solid slategrey;
 }
 
-header, main, footer, body, nav {
+header, main, footer, body, nav, h2 {
     margin: 1.25rem auto;
     padding: .5rem;
     max-width: 90%;
@@ -38,7 +36,7 @@ header, footer, footer a {
 }
 
 header img {
-    width: /*  */;
+    width: 25% content-box;
     height: auto;
     float: right;
 }

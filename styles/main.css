@@ -22,7 +22,7 @@ h2 {
     border-bottom: solid slategrey;
 }
 
-header, main, footer, body, nav, h2 {
+header, main, footer, body, nav {
     margin: 1.25rem auto;
     padding: .5rem;
     max-width: 90%;

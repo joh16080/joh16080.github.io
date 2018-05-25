@@ -12,22 +12,65 @@ header, nav, main, footer { /* the comma between the selectors means apply the f
   max-width: ______; /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
 }
 
-header {}
+header {
+  display: flex;
+  background-color: #03e8ab;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
 header h1 {}
 header img {}
 header .subheading {}
 
-nav {}
+nav {
+  background-color: #03a8e8;
+  text-align: center;
+}
 nav button {}
-nav ul {}
-nav ul li {}
-nav ul li a {}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: .75rem;
+  text-decoration: none;
+  font-size: .9rem;
+}
 nav ul li.active a {}
-nav ul li a:hover {}
+nav ul li a:hover {
+  background-color: #10fbff;
+  color: #03a8e8;
+}
 
 main {}
 main h2 {}
 main figure { margin: 0 0 .2rem 2%; width:96%; }
 main figure img { }
 
-footer {}
+main article{
+   padding:.25rem;  
+   text-align: center;
+}
+main article img{
+  width: 95%;
+  height: auto;
+}
+
+footer {
+  clear: both;
+}
+
+/* class selectors */
+.forcast {
+  display: none;
+}

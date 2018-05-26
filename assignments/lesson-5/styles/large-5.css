@@ -1,4 +1,26 @@
 @media only screen and (min-width: 64em ) {
     
-  
+  main article img{
+    width: 450px;
+    float: right;
+    margin: 7px;
+    box-shadow: 3px 3px 3px #bbb;
   }
+  main figure img {
+    width: 450px;
+    float: left;
+    margin: 25px;
+    box-shadow: 3px 3px 3px #bbb;
+  }
+  .forecast {
+    width: 950px;
+    margin: 25px;
+    padding: 5px;
+    box-shadow: 3px 3px 3px #bbb;
+  }
+  table{
+      border: 0;
+      padding-left: 9%;
+      padding-bottom: 10px;
+     }
+}

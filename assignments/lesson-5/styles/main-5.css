@@ -1,76 +1,206 @@
-/* Delete these CSS comments after reading. */
-/* This main css file contains the default rules and is geared toward the small/phone view */
 
-* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+* { box-sizing: border-box;}  
 
 body {
   font-size: 16px;
-  ____________  /* Declare the base font-family */
+  font-family: "Garamond", serif; 
 }
 
-header, nav, main, footer { /* the comma between the selectors means apply the following CSS declarations to all of the listed elements */
-  max-width: ______; /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
+header, nav, main, footer { 
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 header {
   display: flex;
   background-color: #03e8ab;
   flex-flow: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   padding: 10px;
+  margin: auto;
 }
-header h1 {}
-header img {}
-header .subheading {}
+
+header h1 {
+  font-family: "Avenir", sans-serif;
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 10px;
+}
+
+header img {
+  flex: 0 1 128px;
+  text-align: center;
+  width: 100px;
+  height: auto;
+  margin-right: 10px;
+}
+
+header .subheading {
+  font-family: "Avenir", sans-serif;
+  font-style: italic;
+  font-size: 1.5rem;
+}
 
 nav {
+  font-family: "Avenir", sans-serif;
   background-color: #03a8e8;
   text-align: center;
 }
+
 nav button {}
+
 nav ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 10px;
   overflow: hidden;
 }
+
 nav ul li {
-  display: inline-block;
+  display: block;
+  padding-right: 40px;
 }
+
 nav ul li a {
   display: block;
   color: #fff;
   text-align: center;
   padding: .75rem;
   text-decoration: none;
-  font-size: .9rem;
 }
+
 nav ul li.active a {}
+
 nav ul li a:hover {
   background-color: #10fbff;
   color: #03a8e8;
 }
 
 main {}
-main h2 {}
-main figure { margin: 0 0 .2rem 2%; width:96%; }
-main figure img { }
+
+main h2 {
+  font-family: "Avenir", sans-serif;
+  color: #0376ff;
+  text-align: center;
+}
+
+main content {
+  align-content: center;
+}
+
+main section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+main figure {
+}
+
+main figure img {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  align-content: center;
+}
 
 main article{
    padding:.25rem;  
    text-align: center;
+   border: .05em solid;   
 }
+
 main article img{
-  width: 95%;
+  width: 85%;
   height: auto;
 }
 
+main h3 {
+  font-family: "Avenir", sans-serif;
+  color: #0376ff;
+}
+
 footer {
+  font-family: "Avenir", sans-serif;
+  font-size: 16px;
   clear: both;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
 }
 
 /* class selectors */
-.forcast {
+
+
+.title {
+  font-family: "Avenir", sans-serif;
+}
+
+.subheading {
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.weather-summary {
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.weather-summary h3 {
+  text-align: center;
+}
+
+.current {
+  font-size: 1.5rem;
+}
+
+.current p {
+  text-align: center;
+}
+
+.current picture img {
+  margin: 0;
+}
+
+.highlow{
+  text-align: center;
+}
+
+.conditions{
+  text-align: center;
+}
+
+.forecast {
   display: none;
+}
+
+.contact {
+  background-color: #03a8e8;
+  clear: both;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.footer-bar{
+  flex-flow: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #03e8ab;
+}
+.town-article {
+  padding: 5px;
 }

@@ -9,8 +9,6 @@
      }
 
     nav ul {
-            font-family: 'Paytone One', sans-serif;
-
       list-style-type: none;
       margin: 0;
       padding: 10px;
@@ -18,7 +16,7 @@
      }
 
     .navigation ul li a {
-      display: block;
+      display: inline-block;
       color: #fff;
       text-align: center;
       padding: .75rem;

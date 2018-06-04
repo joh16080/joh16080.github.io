@@ -14,9 +14,13 @@
       padding: 10px;
       overflow: hidden;
      }
-
-    .navigation ul li a {
+  
+    .navigation li {
       display: inline-block;
+     }
+  
+    .navigation ul li a {
+      
       color: #fff;
       text-align: center;
       padding: .75rem;

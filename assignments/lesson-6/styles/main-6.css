@@ -48,6 +48,10 @@ nav{}
 
 main {}
 
+main.responsiveimg {
+  
+}
+
 main h2 {
   font-family: 'Paytone One', sans-serif;
   color: #0376ff;
@@ -199,6 +203,7 @@ footer {
   text-align: center;
   text-decoration: none;
   color: #fff;
+  background-color: #03a8e8;
 }
 
 .navigation li a:hover {
@@ -229,3 +234,9 @@ footer {
   color: #03a8e8;
 }
 
+/* Force an Element not to collapse */
+.clearfix:after {
+  content=" ";
+  display: table;
+  clear: both;
+}

@@ -44,26 +44,54 @@ header .subheading {
   font-size: 1.5rem;
 }
 
-nav{}
-
-main {
-  padding:1em;
-  box-sizing: border-box; 
-  max-width: 60em;
-  margin: 0;
-  font-family: 'Playfair Display', serif;
-}
-
 main ul{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 0.5em;
-  list-style-type: none;
-  
+  grid-template-rows: 1fr;
+  grid-column-gap: 1em;
+  list-style-type: none; 
+  box-sizing: border-box;
+  padding: 1em;
+  grid-column-gap: 1em;
+  grid-row-gap:1em;
 }
 
 main ul li{
- 
+  border: .05em solid;
+  border-radius: 15px;
+  padding: .05em;
+}
+
+main ul li img {
+  display:flex;
+  padding: 1em;
+}
+
+main ul li:nth-child(1) {
+  grid-column: 1;
+  grid-row:1;
+  text-align: left;
+  background: 0;
+  padding: 0.5em;
+}
+main ul li:nth-child(2) {
+  text-align:left;
+  padding: 0.5em;
+}
+main ul li:nth-child(3) {
+  text-align:left;
+  padding: 0.5em;
+}
+main ul li:nth-child(4) {
+  text-align:left;
+  padding: 0.5em;
+}
+main ul li:nth-child(5) {
+  text-align:left;
+  padding: 0.5em;
+}
+main ul li:nth-child(6) {
+  text-align:left;
+  padding: 0.5em;
 }
 
 footer {

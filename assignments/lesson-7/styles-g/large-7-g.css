@@ -2,23 +2,26 @@
     
   .hamburger {display: none; }
   
-  main article img{
-    width: 500px;
-    float: right;
-    margin: 7px;
+main ul{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 1em;
+  list-style-type: none; 
+  box-sizing: border-box;
+  padding: 1em;
+  grid-column-gap: 1em;
+  grid-row-gap:1em;
+}
+
+main ul li{
+  border: .05em solid;
+  border-radius: 15px;
+  background: #ccc;
+  padding: .05em;
+}
+  
+  /*needs to have a border when box is hovered over*/
+  main ul li a:hover{
     box-shadow: 3px 3px 3px #bbb;
-  }
-  main figure img {
-    width: 500px;
-    margin: 15px;
-  }
-  .forecast {
-    width: 950px;
-    padding: 5px;
-  }
-  table{
-      border: 0;
-      padding-left: 9%;
-      padding-bottom: 10px;
-     }
+  }  
 }

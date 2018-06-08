@@ -13,15 +13,17 @@ main ul{
   grid-row-gap:1em;
 }
 
-main ul li{
+main ul li:hover{
   border: .05em solid;
   border-radius: 15px;
   background: #ccc;
   padding: .05em;
+  box-shadow: 3px 3px 3px #bbb;
 }
   
   /*needs to have a border when box is hovered over*/
-  main ul li a:hover{
+  main ul li img:hover{
     box-shadow: 3px 3px 3px #bbb;
   }  
+  
 }

@@ -1,0 +1,171 @@
+
+* { box-sizing: border-box;}  
+
+body {
+  font-size: 16px;
+  font-family: 'Playfair Display', serif;
+ 
+}
+
+header, nav, main, footer { 
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  background-color: #03e8ab;
+  flex-flow: column;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin: auto;
+}
+
+header h1 {
+  font-family: 'Paytone One', sans-serif;
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 10px;
+}
+
+header img {
+  flex: 0 1 128px;
+  text-align: center;
+  width: 100px;
+  height: auto;
+  margin-right: 10px;
+}
+
+header .subheading {
+  font-family: 'Paytone One', sans-serif;
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
+nav{}
+
+main {
+  padding:1em;
+  box-sizing: border-box; 
+  max-width: 60em;
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+}
+
+main ul{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0.5em;
+  list-style-type: none;
+  
+}
+
+main ul li{
+ 
+}
+
+footer {
+  font-family: 'Paytone One', sans-serif;
+  font-size: 16px;
+  clear: both;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+/* class selectors */
+
+
+.title {
+  font-family: 'Paytone One', sans-serif;
+}
+
+.subheading {
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.contact {
+  background-color: #03a8e8;
+  clear: both;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.footer-bar{
+  flex-flow: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #03e8ab;
+}
+ 
+/*header nav*/
+.hamburger {
+  display: block; 
+  float: left;
+  top: 2.0rem;
+  right: 1.25rem;
+}
+
+.navigation {
+  list-style: none;
+  padding-left: 0;
+  background-color: #03a8e8;
+  overflow: hidden;
+}
+
+.navigation li {
+  display: none;
+}
+
+.navigation li a {
+  padding: 1.15rem;
+  display:block;
+  width:100%;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #03a8e8;
+}
+
+.navigation li a:hover {
+  background-color: #10fbff;
+  color: #03a8e8;
+}
+
+.navigation.responsive { 
+  position: relative; 
+}
+    
+.navigation.responsive li { 
+  background-color: #eee; 
+  display: block; 
+  width: 100%; 
+}
+    
+.navigation.responsive li a {   
+  padding: .75rem; 
+  text-align: center;  
+  display: block; 
+  text-decoration:none; 
+  color: #fff;
+}
+    
+.navigation.responsive li a:hover { 
+  background-color: #10fbff;
+  color: #03a8e8;
+}
+
+

@@ -49,8 +49,8 @@ main{
 }
 
 .gallery-grid{
-  display:grid;
-  grid-template-rows: 1fr;
+  display: grid;
+  grid-template-columns: 1fr;
   grid-gap: 1em;
   justify-content: center;
 }

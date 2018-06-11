@@ -8,7 +8,7 @@ body {
 }
 
 header, nav, main, footer { 
-  max-width: 63em;
+  max-width: 60em;
   margin: 0 auto;
 }
 

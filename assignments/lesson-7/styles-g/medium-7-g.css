@@ -41,11 +41,17 @@
       display: none; 
      }
 
-  .gallery-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: .05em;
-    justify-content: center;
-  }
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: .05em;
+      justify-content: center;
+    }
   
+   .navigation.responsive {
+      display:inline-flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
   }

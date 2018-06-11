@@ -2,13 +2,13 @@
 * { box-sizing: border-box;}  
 
 body {
-  font-size: 16px;
+  font-size: 1em;
   font-family: 'Playfair Display', serif;
  
 }
 
 header, nav, main, footer { 
-  max-width: 1000px;
+  max-width: 63em;
   margin: 0 auto;
 }
 
@@ -47,10 +47,6 @@ header .subheading {
 nav{}
 
 main {}
-
-main.responsiveimg {
-  clear: both;
-}
 
 main h2 {
   font-family: 'Paytone One', sans-serif;
@@ -154,14 +150,23 @@ footer {
   display: none;
 }
 
-.contact {
+footer address {
   background-color: #03a8e8;
   clear: both;
   display: flex;
   flex-flow: column;
   align-items: center;
   justify-content: center;
-  padding: 40px;
+  padding: 1.5em;
+}
+
+footer address p{
+  margin: 0.2em;
+}
+
+footer.contact ul li{
+  align-content: center;
+  justify-content: center;
 }
 
 .footer-bar{
@@ -173,14 +178,13 @@ footer {
   background-color: #03e8ab;
 }
 
-.town-article {
+.town-article { 
   padding: 5px;
 }
  
 /*header nav*/
 .hamburger {
-  display: block; 
-  float: left;
+  display: inline-flex; 
   top: 2.0rem;
   right: 1.25rem;
 }
@@ -198,9 +202,10 @@ footer {
 
 .navigation li a {
   padding: 1.15rem;
-  display:block;
+  display: inline-flex;
   width:100%;
   text-align: center;
+  justify-content: center;
   text-decoration: none;
   color: #fff;
   background-color: #03a8e8;
@@ -223,8 +228,9 @@ footer {
     
 .navigation.responsive li a {   
   padding: .75rem; 
-  text-align: center;  
-  display: block; 
+  text-align: center; 
+  justify-content: center;
+  display: inline-flex; 
   text-decoration:none; 
   color: #fff;
 }

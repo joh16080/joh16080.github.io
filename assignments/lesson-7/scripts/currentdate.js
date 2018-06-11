@@ -27,5 +27,5 @@ var dayName = daynames[d.getDay()];
 var monthName = months[d.getMonth()];
 var getDate = d.getDate();
 var year = d.getFullYear();
-var fulldate = dayName + ", " + monthName + " " + getDate + ", " + year;
+var fulldate = dayName + ",  " + monthName + "  " + getDate + ",  " + year;
 document.getElementById("currentdate").innerHTML = fulldate;

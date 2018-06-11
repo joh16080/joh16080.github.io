@@ -1,6 +1,6 @@
 @media only screen and (min-width: 37.5em) {
 
-    section.forecast { display: inline-block; }  
+    section.forecast { display: inline-flex; }  
   
     nav {
       font-family: 'Paytone One', sans-serif;
@@ -11,12 +11,12 @@
     nav ul {
       list-style-type: none;
       margin: 0;
-      padding: 10px;
+      padding: .75rem;
       overflow: hidden;
      }
   
     .navigation li {
-      display: inline-block;
+      display: inline-flex;
      }
   
     .navigation ul li a {
@@ -41,22 +41,11 @@
       display: none; 
      }
 
-    main ul{
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-column-gap: 1em;
-      list-style-type: none; 
-      box-sizing: border-box;
-      padding: 1em;
-      grid-column-gap: 1em;
-      grid-row-gap:1em;
-    }
-
-    main ul li{
-      border: .05em solid;
-      border-radius: 15px;
-      background: #ccc;
-      padding: .05em;
-    }
-
+  .gallery-grid {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: .05em;
+    justify-content: center;
+  }
+  
   }

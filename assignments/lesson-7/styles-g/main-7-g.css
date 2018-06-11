@@ -2,13 +2,13 @@
 * { box-sizing: border-box;}  
 
 body {
-  font-size: 16px;
+  font-size: 1em;
   font-family: 'Playfair Display', serif;
  
 }
 
 header, nav, main, footer { 
-  max-width: 1000px;
+  max-width: 63rem;
   margin: 0 auto;
 }
 
@@ -44,59 +44,31 @@ header .subheading {
   font-size: 1.5rem;
 }
 
-main ul{
+main{
   display: grid;
+}
+
+.gallery-grid{
+  display:grid;
   grid-template-rows: 1fr;
-  grid-column-gap: 1em;
-  list-style-type: none; 
-  box-sizing: border-box;
+  grid-gap: 1em;
+  justify-content: center;
+}
+
+.gallery-grid figure {
+  border: .05px solid;
   padding: 1em;
-  grid-column-gap: 1em;
-  grid-row-gap:1em;
+  border-radius: .05em, .05em, .05em, .05em;
 }
 
-main ul li{
-  border: .05em solid;
-  border-radius: 15px;
-  padding: .05em;
-}
-
-main ul li img {
-  display:flex;
-  padding: 1em;
-}
-
-main ul li:nth-child(1) {
-  grid-column: 1;
-  grid-row:1;
-  text-align: left;
-  background: 0;
-  padding: 0.5em;
-}
-main ul li:nth-child(2) {
-  text-align:left;
-  padding: 0.5em;
-}
-main ul li:nth-child(3) {
-  text-align:left;
-  padding: 0.5em;
-}
-main ul li:nth-child(4) {
-  text-align:left;
-  padding: 0.5em;
-}
-main ul li:nth-child(5) {
-  text-align:left;
-  padding: 0.5em;
-}
-main ul li:nth-child(6) {
-  text-align:left;
-  padding: 0.5em;
+.gallery-grid figcaption{
+  margin-top: 1em;
+  font-size: 1rem;
 }
 
 footer {
   font-family: 'Paytone One', sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   clear: both;
   flex-flow: column;
   align-items: center;
@@ -120,14 +92,18 @@ footer {
 }
 
 
-.contact {
+footer address {
   background-color: #03a8e8;
   clear: both;
   display: flex;
   flex-flow: column;
   align-items: center;
   justify-content: center;
-  padding: 40px;
+  padding: 1.5em;
+}
+
+footer address p{
+  margin: 0.2em;
 }
 
 .footer-bar{
@@ -141,10 +117,7 @@ footer {
  
 /*header nav*/
 .hamburger {
-  display: block; 
-  float: left;
-  top: 2.0rem;
-  right: 1.25rem;
+  display: inline-flex; 
 }
 
 .navigation {
@@ -160,7 +133,7 @@ footer {
 
 .navigation li a {
   padding: 1.15rem;
-  display:block;
+  display:inline-flex;
   width:100%;
   text-align: center;
   text-decoration: none;
@@ -179,14 +152,14 @@ footer {
     
 .navigation.responsive li { 
   background-color: #eee; 
-  display: block; 
+  display: inline-flex; 
   width: 100%; 
 }
     
 .navigation.responsive li a {   
   padding: .75rem; 
   text-align: center;  
-  display: block; 
+  display: inline-flex; 
   text-decoration:none; 
   color: #fff;
 }

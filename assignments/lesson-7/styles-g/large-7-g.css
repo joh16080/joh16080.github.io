@@ -3,10 +3,7 @@
   .hamburger {display: none; }
   
   .gallery-grid {
-  
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 1.5em;
-    
     margin-top: 0;
   }
   

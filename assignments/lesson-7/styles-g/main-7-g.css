@@ -51,17 +51,15 @@ main{
 .gallery-grid{
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: .5em;
+  grid-gap: .05em;
   justify-content: center;
   
 }
 
 .gallery-grid figure {
-  margin: 0;
+  margin: 10px;
   border: .05px solid;
   padding: 1em;
-  border-radius: .05em .05em .05em .05em;
-  margin-top: 10px;
 }
 
 .gallery-grid figure img{

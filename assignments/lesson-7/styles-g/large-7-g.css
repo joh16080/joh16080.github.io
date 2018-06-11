@@ -3,15 +3,13 @@
   .hamburger {display: none; }
   
   .gallery-grid {
-    display:grid;
+  
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1.5em;
-    justify-content: center;
+    
+    margin-top: 0;
   }
   
-  #divgrid {
-    margin-top: 0em;
-  }
 
 .gallery-grid figure:hover{
   border: .05em solid;

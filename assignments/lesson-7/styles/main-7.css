@@ -228,12 +228,7 @@ footer.contact ul li{
     
 .navigation.responsive li a {   
   padding: .75rem; 
-  text-align: center; 
-  justify-content: center;
-  display: inline-flex; 
-  text-decoration:none; 
-  color: #fff;
-}
+  }
     
 .navigation.responsive li a:hover { 
   background-color: #10fbff;

@@ -51,14 +51,22 @@ main{
 .gallery-grid{
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 1em;
+  grid-gap: .5em;
   justify-content: center;
+  
 }
 
 .gallery-grid figure {
+  margin: 0;
   border: .05px solid;
   padding: 1em;
-  border-radius: .05em, .05em, .05em, .05em;
+  border-radius: .05em .05em .05em .05em;
+  margin-top: 10px;
+}
+
+.gallery-grid figure img{
+  width:100%;
+  height: auto;
 }
 
 .gallery-grid figcaption{

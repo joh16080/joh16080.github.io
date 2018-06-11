@@ -16,7 +16,7 @@
      }
   
     .navigation li {
-      display: inline-block;
+      display: inline-flex;
      }
   
     .navigation ul li a {
@@ -89,7 +89,7 @@
       font-size: 1.5rem;
       margin: 5px;
      }
-    .responsive {
+    .navigation.responsive {
       display:inline-flex;
       justify-content: center;
       align-items: center;

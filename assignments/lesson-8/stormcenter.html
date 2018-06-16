@@ -4,13 +4,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Franklin City Weather and Community Site</title>
-  <meta name="description" content="Website dedicated to providing Franklin City with up to date weather and community information">
+  <meta name="description" content="Website dedicated to assisting the community in tracking and recording the local weather">
     <link rel="stylesheet" href="styles-storm/normalize-storm.css"> 
     <link rel="stylesheet" href="styles-storm/main-storm.css">
     <link rel="stylesheet" href="styles-storm/medium-storm.css">
     <link rel="stylesheet" href="styles-storm/large-storm.css">
     <link href="https://fonts.googleapis.com/css?family=Paytone+One%7cPlayfair+Display" rel="stylesheet">
-  <scripts-storm src="scripts-storm/hamburger.js"></scripts-storm>
+  <script src="scripts-storm/hamburger.js"></script>
 </head>
   
  <body>
@@ -44,19 +44,34 @@
       <form method="get" action="thanks.html">
         <fieldset>
           <legend>Applicant Information</legend>
-          <lable>Full Name<input type="text" name="fullname" pattern="[[:alpha:]]{5}" required></lable>
-          <lable>Phone<input type="tel" name="phone" required></lable>
-          <lable>Email<input type="email" name="email"  placeholder="someone@email.com"></lable>
-          <lable>Zipcode<input type="number" name="zip" required></lable>
+            <label>Full Name<input type="text" name="fullname" pattern="[[:alpha:]]{5}" required></label>
+          
+            <label>Phone<input type="tel" name="phone" required></label>
+          
+            <label>Email<input type="email" name="email"  placeholder="someone@email.com"></label>
+          
+            <label>Zipcode<input type="number" name="zip" required></label>
         </fieldset>
         
         <fieldset>
           <legend>Storm Information</legend>  
             <lable>Storm Date<input type="date" name="completeDate" required></lable>
+          
             <label for="rating">Storm Rating (1 to 10)
-            <input type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+            <input type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"></label>
               <span id="ratingvalue">5</span>
+            
+          
+            <label>Storm Type: <input list="storms" name="stormType">
+                    <datalist id="storms">
+                    <option value="Flash Flood">
+                    <option value="Hail">
+                    <option value="Hurricane">
+                    <option value="Thunderstorm">
+                    <option value="Tornado">
+                </datalist>
             </label>
+          
             <label>Storm Region
                 <select name="region">
                     <option value="">Please Select</option>
@@ -65,18 +80,21 @@
                     <option value="springfield">Springfield</option>
                 </select>
             </label>
+          
             <div>Are you in danger?</div>
             <label><input type="radio" name="danger" value="yes">Yes</label>
+          
             <label><input type="radio" name="danger" value="no">No</label>
+          
             <label><input type="radio" name="danger" value="maybe">Maybe</label>
         </fieldset>
         
         <fieldset>
           <legend>Additional Information</legend>
-            <label>Comments<input type="textarea"  name="textarea"></label>
+          <label>Comments<textarea type="textarea"  name="textarea"></textarea></label>
         </fieldset>
         
-        <input type="submit" value="Report This Storm">
+        <input class="submitBtn" type="submit" value="Report This Storm">
         
       </form>
     	  
@@ -92,9 +110,9 @@
     </div>
   </footer>
    
-   <scripts-storm src="scripts-storm/currentdate.js"></scripts-storm>
+   <script src="scripts-storm/currentdate.js"></script>
    
-   <scripts-storm src="scripts-storm/adjustrating.js"></scripts-storm>
+   <script src="scripts-storm/adjustrating.js"></script>
    
  </body>
 </html>

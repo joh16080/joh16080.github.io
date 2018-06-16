@@ -44,19 +44,19 @@
       <form method="get" action="thanks.html">
         <fieldset>
           <legend>Applicant Information</legend>
-          <lable>First Name<input type="text" name="fname" required></lable>
-           <lable>Last Name<input type="text" name="lname" required></lable>
-           <lable>Phone<input type="tel" name="phone" required></lable>
-           <lable>Email<input type="email" name="email"  placeholder="someone@email.com"></lable>
+          <lable>Full Name<input type="text" name="fullname" pattern="[[:alpha:]]{5}" required></lable>
+          <lable>Phone<input type="tel" name="phone" required></lable>
+          <lable>Email<input type="email" name="email"  placeholder="someone@email.com"></lable>
           <lable>Zipcode<input type="number" name="zip" required></lable>
         </fieldset>
         
         <fieldset>
           <legend>Storm Information</legend>  
             <lable>Storm Date<input type="date" name="completeDate" required></lable>
-            <label for="rating">Storm Rating (1 to 10)</label>
+            <label for="rating">Storm Rating (1 to 10)
             <input type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
               <span id="ratingvalue">5</span>
+            </label>
             <label>Storm Region
                 <select name="region">
                     <option value="">Please Select</option>
@@ -64,16 +64,20 @@
                     <option value="greenville">Greenville</option>
                     <option value="springfield">Springfield</option>
                 </select>
-            
-          <div>Are you in danger?</div>
-          <label><input type="radio" name="danger" value="yes">Yes</label>
-          <label><input type="radio" name="danger" value="no">No</label>
-          <label><input type="radio" name="danger" value="maybe">Maybe</label>
+            </label>
+            <div>Are you in danger?</div>
+            <label><input type="radio" name="danger" value="yes">Yes</label>
+            <label><input type="radio" name="danger" value="no">No</label>
+            <label><input type="radio" name="danger" value="maybe">Maybe</label>
         </fieldset>
+        
         <fieldset>
           <legend>Additional Information</legend>
             <label>Comments<input type="textarea"  name="textarea"></label>
         </fieldset>
+        
+        <input type="submit" value="Report This Storm">
+        
       </form>
     	  
   </main>

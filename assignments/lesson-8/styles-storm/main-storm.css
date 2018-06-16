@@ -54,41 +54,6 @@ main h2 {
   text-align: center;
 }
 
-main content {
-  align-content: center;
-}
-
-main section {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-main figure {
-}
-
-main figure img {
-  width: 100%;
-  height: auto;
-  margin: 0;
-  padding: 0;
-  align-content: center;
-}
-
-main article{
-   padding:.25rem;  
-   text-align: center;  
-}
-
-main article img{
-  width: 85%;
-  height: auto;
-}
-
-main h3 {
-  font-family: 'Paytone One', sans-serif;
-  color: #0376ff;
-}
-
 footer {
   font-family: 'Paytone One', sans-serif;
   font-size: 16px;
@@ -101,7 +66,7 @@ footer {
 
 /* class selectors */
 
-
+/*Heading area */
 .title {
   font-family: 'Paytone One', sans-serif;
 }
@@ -114,42 +79,8 @@ footer {
   justify-content: center;
 }
 
-.weather-summary {
-  flex: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
 
-.weather-summary h3 {
-  text-align: center;
-}
-
-.current {
-  font-size: 1.5rem;
-}
-
-.current p {
-  text-align: center;
-}
-
-.current picture img {
-  margin: 0;
-}
-
-.highlow{
-  text-align: center;
-}
-
-.conditions{
-  text-align: center;
-}
-
-.forecast {
-  display: none;
-}
-
+/*footer information */
 footer address {
   background-color: #03a8e8;
   clear: both;
@@ -176,10 +107,6 @@ footer.contact ul li{
   justify-content: center;
   padding: 20px;
   background-color: #03e8ab;
-}
-
-.town-article { 
-  padding: 5px;
 }
  
 /*header nav*/
@@ -235,5 +162,42 @@ footer.contact ul li{
   color: #03a8e8;
 }
 
+/*form css */
 
+from fieldset {
+  margin: 2rem 0;
+  border: 1px solid #445ba9;
+  border-radius: 10px;
+  padding: .5rem 2%;
+}
 
+form legend {
+  color: #445ba9;
+  margin: 0 1rem;
+  padding: 0 .5rem;
+}
+
+form label.top, form div {
+  display: block;
+  padding-top: 1rem;
+  color: #9c2c13;
+  font-size: .8rem;
+}
+
+form label.top input, form label.top textarea {
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #999;
+  border-radius: 4px;
+  padding: .75rem;
+  color: #555;
+  width: 100%
+  max-width: 20rem;
+  background-color: rgba(0,0,0,0.1);
+}
+
+form lable.sbs {
+  display: block;
+  padding: .75rem 0;
+  color: #555;
+}

@@ -29,11 +29,11 @@
   <nav>
     <ul class="navigation">
     	<li><a href="#">Home</a></li>
-    	<li><a href="franklin-7.html">Franklin</a></li>
+    	<li><a href="assignments/lesson-7/franklin-7.html">Franklin</a></li>
     	<li><a href="#">Greenville</a></li>
     	<li><a href="#">Springfield</a></li>
     	<li><a href="stormcenter.html">Storm Center</a></li>
-    	<li><a href="gallery-7.html">Gallery</a></li>
+    	<li><a href="assignments/lesson-7/gallery-7.html">Gallery</a></li>
     </ul>		
   </nav>
     
@@ -54,16 +54,25 @@
         <fieldset>
           <legend>Storm Information</legend>  
             <lable>Storm Date<input type="date" name="completeDate" required></lable>
-            <lable>Storm Rating (1 to 10)<input type="range" name="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"></lable>
+            <label for="rating">Storm Rating (1 to 10)</label>
+            <input type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
               <span id="ratingvalue">5</span>
-          <label>Storm Region
-              <select name="region">
-                  <option value="">Please Select</option>
-                  <option value="franklin">Franklin</option>
-                  <option value="greenville">Greenville</option>
-                  <option value="springfield">Springfield</option>
-              </select>
-          </label>
+            <label>Storm Region
+                <select name="region">
+                    <option value="">Please Select</option>
+                    <option value="franklin">Franklin</option>
+                    <option value="greenville">Greenville</option>
+                    <option value="springfield">Springfield</option>
+                </select>
+            
+          <div>Are you in danger?</div>
+          <label><input type="radio" name="danger" value="yes">Yes</label>
+          <label><input type="radio" name="danger" value="no">No</label>
+          <label><input type="radio" name="danger" value="maybe">Maybe</label>
+        </fieldset>
+        <fieldset>
+          <legend>Additional Information</legend>
+            <label>Comments<input type="textarea"  name="textarea"></label>
         </fieldset>
       </form>
     	  

@@ -29,11 +29,11 @@
   <nav>
     <ul class="navigation">
     	<li><a href="#">Home</a></li>
-    	<li><a href="assignments/lesson-7/franklin-7.html">Franklin</a></li>
+    	<li><a href="franklin-8.html">Franklin</a></li>
     	<li><a href="#">Greenville</a></li>
     	<li><a href="#">Springfield</a></li>
     	<li><a href="stormcenter.html">Storm Center</a></li>
-    	<li><a href="assignments/lesson-7/gallery-7.html">Gallery</a></li>
+    	<li><a href="gallery-8.html">Gallery</a></li>
     </ul>		
   </nav>
     
@@ -44,18 +44,19 @@
       <form method="get" action="thanks.html">
         <fieldset>
           <legend>Applicant Information</legend>
-            <label class="top">Full Name<input type="text" name="fullname" pattern="[[:alpha:]]{5}" required></label>
+            <label class="top">Full Name<input type="text" name="fullname" pattern="[[:alpha:]]{5}" placeholder=" ex. John Doe" required></label>
           
-            <label class="top">Phone<input type="tel" name="phone" required></label>
+            <label class="top">Phone<input type="tel" name="phone" placeholder="123456789" required></label>
           
             <label class="top">Email<input type="email" name="email"  placeholder="someone@email.com"></label>
           
-            <label class="top">Zipcode<input type="number" name="zip" required></label>
+            <label class="top">Zipcode<input type="num" name="zip" required></label>
         </fieldset>
         
         <fieldset>
           <legend>Storm Information</legend>  
-            <lable class="top">Storm Date<input type="date" name="completeDate" required></lable>
+            <label class="top">Storm Date
+              <input type="date" name="completeDate" required></label>
           
             <label class="top" for="rating">Storm Rating (1 to 10)
               <input type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"></label>
@@ -74,7 +75,7 @@
           
             <label class="top">Storm Region
                 <select name="region">
-                    <option value="">Please Select</option>
+                    <option value="">Please Select </option>
                     <option value="franklin">Franklin</option>
                     <option value="greenville">Greenville</option>
                     <option value="springfield">Springfield</option>

@@ -48,6 +48,33 @@
       justify-content: center;
      }
   
+    main content {
+      display: grid;
+      grid-template-columns: .0fr 0.85fr;
+     }
+  
+   main figure img {
+      width: 350px;
+      float: left;
+      margin: 7px;
+     }
+  
+    main article img{
+      width: 350px;
+      float: right;
+      margin: 7px;
+     }
+  
+    table{
+      border: 0;
+      padding-left: 4.75%;
+     }
+  
+    th, td {
+      padding: 1rem;
+       border: .05rem solid;
+     }
+  
     .forecast {
       display: flex;
       width: 875px;
@@ -69,5 +96,5 @@
       align-items: center;
       width: 100%;
      }
- 
+  
   }

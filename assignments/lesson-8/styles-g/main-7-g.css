@@ -8,7 +8,7 @@ body {
 }
 
 header, nav, main, footer { 
-  max-width: 60em;
+  max-width: 63rem;
   margin: 0 auto;
 }
 
@@ -44,20 +44,37 @@ header .subheading {
   font-size: 1.5rem;
 }
 
-nav{}
+main{
+  display: grid;
+}
 
-main {}
+.gallery-grid{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: .05em;
+  justify-content: center;
+  
+}
 
-main h2 {
-  font-family: 'Paytone One', sans-serif;
-  color: #0376ff;
-  text-align: center;
-  font-size: 2rem;
+.gallery-grid figure {
+  margin: 10px;
+  border: .05px solid;
+  padding: 1em;
+}
+
+.gallery-grid figure img{
+  width:100%;
+  height: auto;
+}
+
+.gallery-grid figcaption{
+  margin-top: 1em;
+  font-size: 1rem;
 }
 
 footer {
   font-family: 'Paytone One', sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   clear: both;
   flex-flow: column;
   align-items: center;
@@ -67,7 +84,7 @@ footer {
 
 /* class selectors */
 
-/*Heading area */
+
 .title {
   font-family: 'Paytone One', sans-serif;
 }
@@ -81,7 +98,6 @@ footer {
 }
 
 
-/*footer information */
 footer address {
   background-color: #03a8e8;
   clear: both;
@@ -96,11 +112,6 @@ footer address p{
   margin: 0.2em;
 }
 
-footer.contact ul li{
-  align-content: center;
-  justify-content: center;
-}
-
 .footer-bar{
   flex-flow: column;
   text-align: center;
@@ -113,8 +124,6 @@ footer.contact ul li{
 /*header nav*/
 .hamburger {
   display: inline-flex; 
-  top: 2.0rem;
-  right: 1.25rem;
 }
 
 .navigation {
@@ -130,10 +139,9 @@ footer.contact ul li{
 
 .navigation li a {
   padding: 1.15rem;
-  display: inline-flex;
+  display:inline-flex;
   width:100%;
   text-align: center;
-  justify-content: center;
   text-decoration: none;
   color: #fff;
   background-color: #03a8e8;
@@ -150,84 +158,21 @@ footer.contact ul li{
     
 .navigation.responsive li { 
   background-color: #eee; 
-  display: block; 
+  display: inline-flex; 
   width: 100%; 
 }
     
 .navigation.responsive li a {   
   padding: .75rem; 
-  }
+  text-align: center;  
+  display: inline-flex; 
+  text-decoration:none; 
+  color: #fff;
+}
     
 .navigation.responsive li a:hover { 
   background-color: #10fbff;
   color: #03a8e8;
 }
 
-/*form css */
 
-form fieldset {
-  margin: 2rem;
-  border: 5px solid #0376ff;
-  padding: .5rem 5%;
-}
-
-form legend {
-  color: #0376ff;
-  margin: 0;
-  padding: 0 .5rem;
-  font-family: 'Paytone One', sans-serif;
-  font-size: 1.5rem;
-}
-
-form label.top, form div {
-  display: block;
-  padding-top: 1rem;
-  color: black;
-  font-size: 1rem;
-}
-
-form label.top input, form label.top textarea, form label.top select {
-  display: block;
-  font-size: 1rem;
-  border: solid 1px lightgrey;
-  border-radius: 4px;
-  padding: .75rem;
-  color: #555;
-  width: 100%;
-  max-width: 20rem;
-  background-color: rgba(0,0,0,0.1);
-}
-
-form label.sbs {
-  display: block;
-  padding: .75rem 0;
-  color: black;
-  font-size: .82rem;
-}
-
-form input.submitBtn {
-  border: none;
-  background-color: #03e8ab;
-  color: black;
-  border-radius: 10px;
-  padding: .75rem 1.5rem;
-  margin: 0 0 2rem 9%;
-  width: 96%;
-  max-width: 20rem;
-  font-family: 'Paytone One', sans-serif;
-}
-
-form label.top input:required {
-  border-left: #10fbff solid 6px;
-}
-
-form label.top input:required:valid {
-  border-left: #03e8ab solid 6px;
-}
-
-main p {
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  padding: 1rem;
-}

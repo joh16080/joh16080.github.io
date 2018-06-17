@@ -176,14 +176,14 @@ form legend {
   margin: 0;
   padding: 0 .5rem;
   font-family: 'Paytone One', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 form label.top, form div {
   display: block;
   padding-top: 1rem;
   color: black;
-  font-size: 1rem;
+  font-size: .9rem;
 }
 
 form label.top input, form label.top textarea, form label.top select {
@@ -202,19 +202,20 @@ form label.sbs {
   display: block;
   padding: .75rem 0;
   color: black;
-  font-size: .82rem;
+  font-size: .85rem;
 }
 
 form input.submitBtn {
   border: none;
   background-color: #03e8ab;
-  color: black;
+  color: white;
   border-radius: 10px;
   padding: .75rem 1.5rem;
   margin: 0 0 2rem 9%;
   width: 96%;
   max-width: 20rem;
   font-family: 'Paytone One', sans-serif;
+  font-size: 1.5rem;
 }
 
 form label.top input:required {
@@ -231,3 +232,4 @@ main p {
   justify-content: center;
   padding: 1rem;
 }
+

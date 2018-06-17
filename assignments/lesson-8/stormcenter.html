@@ -44,26 +44,26 @@
       <form method="get" action="thanks.html">
         <fieldset>
           <legend>Applicant Information</legend>
-            <label class="top">Full Name<input type="text" name="fullname" pattern="[[:alpha:]]{5}" placeholder=" ex. John Doe" required></label>
+            <label class="top">Full Name &ast;<input type="text" name="fullname" pattern="[[:alpha:]]{5}" placeholder=" ex. John Doe" required></label>
           
-            <label class="top">Phone<input type="tel" name="phone" placeholder="123456789" required></label>
+            <label class="top">Phone &ast; <input type="tel" name="phone" placeholder="123456789" required></label>
           
             <label class="top">Email<input type="email" name="email"  placeholder="someone@email.com"></label>
           
-            <label class="top">Zipcode<input type="num" name="zip" required></label>
+            <label class="top">Zipcode &ast; <input type="number" name="zip" required></label>
         </fieldset>
         
         <fieldset>
           <legend>Storm Information</legend>  
-            <label class="top">Storm Date
+            <label class="top">Storm Date &ast;
               <input type="date" name="completeDate" required></label>
           
             <label class="top" for="rating">Storm Rating (1 to 10)
               <input type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"></label>
-              <span id="ratingvalue">5</span>
+              <span id="ratingvalue"><strong>5</strong></span>
             
           
-            <label class="top">Storm Type: <input list="storms" name="stormType">
+            <label class="top">Storm Type <input list="storms" name="stormType">
                     <datalist id="storms">
                     <option value="Flash Flood">
                     <option value="Hail">
@@ -92,7 +92,7 @@
         
         <fieldset>
           <legend>Additional Information</legend>
-          <label class="top">Comments<textarea type="textarea"  name="textarea"></textarea></label>
+          <label class="top">Comments<textarea   name="textarea"></textarea></label>
         </fieldset>
         
         <input type="submit" value="Report This Storm" class="submitBtn">

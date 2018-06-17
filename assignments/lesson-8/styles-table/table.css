@@ -47,7 +47,8 @@ footer {
 table {
   font-family: Ubuntu, sans-serif;
   border: .05em solid #bbb;
-  box-shadow: 3px 3px 3px #bbb;
+  border-collapse: collapse;
+  box-shadow: 8px 8px 8px #628ca6;
   letter-spacing: .5px;
 }
 
@@ -58,7 +59,7 @@ tr th {
 }
 
 td, th {
-  border: .o5em solid #bbb;
+  border: .05em solid #bbb;
   padding: 10px;
   text-align: center;
 }
@@ -89,7 +90,7 @@ tfoot th {
   background-color: #7fb9c2;
   text-align: center;
   color: black;
-  font-size: .05em;
+  font-size: .8em;
 }
 
 caption {

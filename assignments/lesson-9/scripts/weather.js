@@ -11,17 +11,13 @@ weatherRequest.onload = function() {
  
   document.getElementById('hightemp').innerHTML =  weatherData.main.temp_max;
   
-  document.getElementById('lowtemp').innerHTML =  weatherData.main.temp_min;
-  
   document.getElementById('humidity').innerHTML =  weatherData.main.humidity;
   
   document.getElementById('windspeed').innerHTML =  weatherData.wind.speed;
   
-  document.getElementById('pressure').innerHTML =  weatherData.main.pressure;
+  document.getElementById('clouds').innerHTML =  weatherData.clouds.all;
   
-  document.getElementById('winddirection').innerHTML =  weatherData.wind.deg;
-  
-  document.getElementById('clouds').innerHTML =  weatherData.clouds;
+  document.getElementById('currentCond').innerHTML =  weatherData.weather[0].description;
   
   let imagesrc = 'https://openweathermap.org/img/w/' + weatherData.weather[0].icon + '.png';
   document.getElementById('weatherimage').src = imagesrc;

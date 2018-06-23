@@ -48,9 +48,9 @@
       <h3>Weather Summary</h3> 
       
       <div class="highlow">
-        <p>Current Temperature: <span id="hightemp"></span> &deg;F </p>  
+        <p>Current temperature: <span id="hightemp"></span> &deg;F </p>  
          <p>Humidity: <span id="humidity"></span>&percnt;</p>
-        <p> Clouds: <span id="clouds"></span></p>
+        <p> Clouds: <span id="clouds"></span>&percnt;</p>
       </div>
       
       <div class="current">
@@ -60,10 +60,9 @@
         </picture>  
       </div> 
       
-      <div class="conditions">
-        <p>Wind Direction: <span id="winddirection"></span></p>  
-        <p>Wind Speed: <span id="windspeed"></span> mph SW</p>
-        <p>Air Pressure: <span id="pressure"></span>  </p>
+      <div class="conditions"> 
+        <p>Current conditions: <span id="currentCond"></span></p>
+        <p>Wind speed: <span id="windspeed"></span> mph</p>
       </div>           
      </section>
         
@@ -121,7 +120,7 @@
   </footer>
    
    <script src="scripts/currentdate.js"></script>
-   <script src="scripts/windchill.js"></script>
    <script src="scripts/weather.js"></script>
+   
  </body>
 </html>

@@ -26,11 +26,11 @@ towninfoRequest.onload = function() {
   
   document.getElementById('Gtown-rainfall').innerHTML =  townData.towns[1].averageRainfall;
   
-  document.getElementById('Stown-motto').innerHTML =  townData.towns[2].motto;
+  document.getElementById('Stown-motto').innerHTML =  townData.towns[3].motto;
   
-  document.getElementById('Stown-founded').innerHTML =  townData.towns[2].yearFounded;
+  document.getElementById('Stown-founded').innerHTML =  townData.towns[3].yearFounded;
   
-  document.getElementById('Stown-population').innerHTML =  townData.towns[2].currentPopulation;
+  document.getElementById('Stown-population').innerHTML =  townData.towns[3].currentPopulation;
   
-  document.getElementById('Stown-rainfall').innerHTML =  townData.towns[2].averageRainfall;
+  document.getElementById('Stown-rainfall').innerHTML =  townData.towns[3].averageRainfall;
 }

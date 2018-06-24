@@ -2,25 +2,6 @@
     
   .hamburger {display: none; }
   
-  main article img{
-    width: 500px;
-    float: right;
-    margin: 7px;
-    box-shadow: 3px 3px 3px #bbb;
-  }
-  main figure img {
-    width: 500px;
-    margin: 15px;
-  }
-  .forecast {
-    width: 950px;
-    padding: 5px;
-  }
-  table{
-      border: 0;
-      padding-left: 9%;
-      padding-bottom: 10px;
-     }
   .home-grid {
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 0;
@@ -32,7 +13,14 @@
     padding: .08em;
     box-shadow: 3px 3px 3px #bbb;
   }
+  .home-grid {
+      grid-template-columns: repeat (3, 1fr);
+      grid-gap: .05em;
+    }
   
-  /*needs to have a border when box is hovered over*/
-
+  .weatherstory {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  
 }

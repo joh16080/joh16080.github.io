@@ -41,13 +41,6 @@
       display: none; 
      }
 
-    main h2 {
-      color: #0376ff;
-      display: flex;
-      text-align: center;
-      justify-content: center;
-     }
-  
     .navigation.responsive {
       display:inline-flex;
       justify-content: center;

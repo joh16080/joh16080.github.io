@@ -13,10 +13,6 @@
     padding: .08em;
     box-shadow: 3px 3px 3px #bbb;
   }
-  .home-grid {
-      grid-template-columns: repeat (3, 1fr);
-      grid-gap: .05em;
-    }
   
   .weatherstory {
     grid-column-start: 1;

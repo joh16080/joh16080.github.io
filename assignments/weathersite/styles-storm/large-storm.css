@@ -1,0 +1,28 @@
+@media only screen and (min-width: 64em ) {
+    
+  .hamburger {display: none; }
+  
+  main article img{
+    width: 500px;
+    float: right;
+    margin: 7px;
+    box-shadow: 3px 3px 3px #bbb;
+  }
+  main figure img {
+    width: 500px;
+    margin: 15px;
+  }
+  .forecast {
+    width: 950px;
+    padding: 5px;
+  }
+  table{
+      border: 0;
+      padding-left: 9%;
+      padding-bottom: 10px;
+     }
+   /* Form */
+  form label.sbs {
+    padding: .4rem 0;
+  }
+}

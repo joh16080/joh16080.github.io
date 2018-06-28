@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Franklin City Weather and Community Site</title>
   <meta name="description" content="Website dedicated to providing Franklin County with up to date weather and community information">
-    <link rel="stylesheet" href="styles-home/normalize-home.css"> 
-    <link rel="stylesheet" href="styles-home/main-home.css">
-    <link rel="stylesheet" href="styles-home/medium-home.css">
-    <link rel="stylesheet" href="styles-home/large-home.css">
+    <link rel="stylesheet" href="styles/normalize-home.css"> 
+    <link rel="stylesheet" href="styles/main-home.css">
+    <link rel="stylesheet" href="stylesmedium-home.css">
+    <link rel="stylesheet" href="styles/large-home.css">
     <link href="https://fonts.googleapis.com/css?family=Paytone+One%7cPlayfair+Display" rel="stylesheet">
   <script src="scripts-home/hamburger.js"></script>
 </head>
@@ -17,7 +17,7 @@
   
   <header>
     <div class="logo">
-      <img src="images-home/franklin-logo.png" alt="Franklin's Weather Logo">
+      <img src="images/franklin-logo.png" alt="Franklin's Weather Logo">
     </div>
     <div class="title">
       <h1>Weather or Not?</h1>
@@ -28,12 +28,12 @@
 
   <nav>
     <ul class="navigation">
-    	<li><a href="home.html">Home</a></li>
-    	<li><a href="franklin-9.html">Franklin</a></li>
-    	<li><a href="#">Greenville</a></li>
-    	<li><a href="#">Springfield</a></li>
-    	<li><a href="stormcenter-9.html">Storm Center</a></li>
-    	<li><a href="gallery-9.html">Gallery</a></li>
+    	<li><a href="index.html">Home</a></li>
+    	<li><a href="franklin.html">Franklin</a></li>
+    	<li><a href="greenville.html">Greenville</a></li>
+    	<li><a href="springfield.html">Springfield</a></li>
+    	<li><a href="stormcenter.html">Storm Center</a></li>
+    	<li><a href="gallery.html">Gallery</a></li>
     </ul>		
   </nav>
     
@@ -43,7 +43,7 @@
       <section class="weatherstory">
         <h3>Weather Story</h3>
         <p>Lots of interesting things happen here as far as weather goes. We get sunshine and storms. Storms can produce rain, hail, and even snow. </p>
-        <img src="images-home/field-1000.jpg" alt="Sunrise over spring fields">  
+        <img src="images/field-1000.jpg" alt="Sunrise over spring fields">  
       </section>
       
       <section class="franklin">
@@ -52,7 +52,7 @@
         <p>Average Rainfall: <span id="Ftown-rainfall"></span> Inche(s)</p>
         <p>Year Founded: <span id="Ftown-founded"></span></p>
         <p>Town Popluation: <span id="Ftown-population"></span></p>
-        <img src="images-home/rocks-600.jpg" alt="Rocks in a river">
+        <img src="images/rocks-600.jpg" alt="Rocks in a river">
       </section>
       
       <section class="greenville">
@@ -61,7 +61,7 @@
         <p>Average Rainfall: <span id="Gtown-rainfall"></span> Inche(s)</p>
         <p>Year Founded: <span id="Gtown-founded"></span></p>
         <p>Town Popluation: <span id="Gtown-population"></span></p>
-        <img src="images-home/blooms-600.jpg" alt="Sunset with spring blossoms">
+        <img src="images/blooms-600.jpg" alt="Sunset with spring blossoms">
       </section>
      
       <section class="springfield">
@@ -70,7 +70,7 @@
         <p>Average Rainfall: <span id="Stown-rainfall"></span> Inche(s)</p>
         <p>Year Founded: <span id="Stown-founded"></span></p>
         <p>Town Popluation: <span id="Stown-population"></span></p>
-        <img src="images-home/smallred-600.jpg" alt="Old town Springfield">
+        <img src="images/smallred-600.jpg" alt="Old town Springfield">
       </section>
     </div>
   </main>
@@ -81,12 +81,12 @@
       <p>123 Main St. Franklin, US 99999</p>
       <p>Google Map</p>
     </address>
-    <div class="footer-bar">&copy;2018 | All Rights Reserved | Franklin's Weather | <span id="currentdate"></span> | <a href="https://openweathermap.org">OpenWeatherMap</a>
+    <div class="footer-bar">&copy;2018 | All Rights Reserved | Franklin's Weather | <span id="currentdate"></span> | Weather Data Courtesy of: <a href="https://openweathermap.org">OpenWeatherMap</a>
     </div>
   </footer>
    
-   <script src="scripts-home/currentdate.js"></script>
-   <script src="scripts-home/towninfo.js"></script>
+   <script src="scriptscurrentdate.js"></script>
+   <script src="scripts/towninfo.js"></script>
 
  </body>
 </html>

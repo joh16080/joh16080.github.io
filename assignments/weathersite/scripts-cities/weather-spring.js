@@ -18,7 +18,7 @@ weatherRequest.onload = function() {
   document.getElementById('clouds').innerHTML =  weatherData.clouds.all;
   
   document.getElementById('currentCond').innerHTML =  weatherData.weather[0].description;
-  
+    
   let imagesrc = 'https://openweathermap.org/img/w/' + weatherData.weather[0].icon + '.png';
   document.getElementById('weatherimage').src = imagesrc;
   

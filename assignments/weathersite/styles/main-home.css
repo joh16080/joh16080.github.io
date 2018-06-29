@@ -119,6 +119,31 @@ footer.contact ul li{
 .town-article { 
   padding: 5px;
 }
+main{
+  display: grid;
+}
+
+.home-grid{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: .05em;
+  justify-content: center;
+}
+
+.home-grid section {
+  margin: 10px;
+  border: .05px solid;
+  padding: 1em;
+}
+
+.home-grid section img {
+  width:100%;
+  height: auto;
+}
+
+.home-grid section p {
+  font-size: 1rem;
+}
  
 /*header nav*/
 .hamburger {
@@ -128,6 +153,7 @@ footer.contact ul li{
 }
 
 .navigation {
+  font-family: 'Paytone One', sans-serif;
   list-style: none;
   padding-left: 0;
   background-color: #03a8e8;
@@ -173,30 +199,5 @@ footer.contact ul li{
   color: #03a8e8;
 }
 
-main{
-  display: grid;
-}
-
-.home-grid{
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: .05em;
-  justify-content: center;
-}
-
-.home-grid section {
-  margin: 10px;
-  border: .05px solid;
-  padding: 1em;
-}
-
-.home-grid section img {
-  width:100%;
-  height: auto;
-}
-
-.home-grid section p {
-  font-size: 1rem;
-}
 
 

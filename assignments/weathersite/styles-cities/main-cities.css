@@ -222,7 +222,7 @@ footer.contact ul li{
 }
     
 .navigation.responsive li { 
-  background-color: #eee; 
+  background-color: #fff; 
   display: block; 
   width: 100%; 
 }
@@ -235,6 +235,10 @@ footer.contact ul li{
   background-color: #10fbff;
   color: #03a8e8;
 }
-
+ 
+#mainmenu:active {
+  background-color: #fff;
+  color: #10fbff;
+}
 
 

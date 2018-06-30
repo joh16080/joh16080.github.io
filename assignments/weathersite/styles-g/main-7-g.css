@@ -127,6 +127,7 @@ footer address p{
 }
 
 .navigation {
+  font-family: 'Paytone One', sans-serif;
   list-style: none;
   padding-left: 0;
   background-color: #03a8e8;
@@ -139,9 +140,10 @@ footer address p{
 
 .navigation li a {
   padding: 1.15rem;
-  display:inline-flex;
+  display: inline-flex;
   width:100%;
   text-align: center;
+  justify-content: center;
   text-decoration: none;
   color: #fff;
   background-color: #03a8e8;
@@ -158,17 +160,13 @@ footer address p{
     
 .navigation.responsive li { 
   background-color: #eee; 
-  display: inline-flex; 
+  display: block; 
   width: 100%; 
 }
     
 .navigation.responsive li a {   
   padding: .75rem; 
-  text-align: center;  
-  display: inline-flex; 
-  text-decoration:none; 
-  color: #fff;
-}
+  }
     
 .navigation.responsive li a:hover { 
   background-color: #10fbff;

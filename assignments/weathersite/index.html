@@ -27,7 +27,7 @@
   </header>
 
   <nav>
-    <ul class="navigation">
+    <ul class="navigation" id="mainmenu">
     	<li><a href="index.html">Home</a></li>
     	<li><a href="franklin.html">Franklin</a></li>
     	<li><a href="greenville.html">Greenville</a></li>
@@ -48,28 +48,28 @@
       
       <section class="franklin">
         <h3>Franklin</h3>
-        <p>Town Motto: <span id="Ftown-motto"></span></p>
-        <p>Average Rainfall: <span id="Ftown-rainfall"></span> Inche(s)</p>
-        <p>Year Founded: <span id="Ftown-founded"></span></p>
-        <p>Town Popluation: <span id="Ftown-population"></span></p>
+        <p><strong>Town Motto:</strong> <span id="Ftown-motto"></span></p>
+        <p><strong>Average Rainfall:</strong> <span id="Ftown-rainfall"></span> Inche(s)</p>
+        <p><strong>Year Founded:</strong> <span id="Ftown-founded"></span></p>
+        <p><strong>Town Popluation:</strong> <span id="Ftown-population"></span></p>
         <img src="images/rocks-600.jpg" alt="Rocks in a river">
       </section>
       
       <section class="greenville">
         <h3>Greenville</h3>
-        <p>Town Motto: <span id="Gtown-motto"></span></p>
-        <p>Average Rainfall: <span id="Gtown-rainfall"></span> Inche(s)</p>
-        <p>Year Founded: <span id="Gtown-founded"></span></p>
-        <p>Town Popluation: <span id="Gtown-population"></span></p>
+        <p><strong>Town Motto:</strong> <span id="Gtown-motto"></span></p>
+        <p><strong>Average Rainfall:</strong> <span id="Gtown-rainfall"></span> Inche(s)</p>
+        <p><strong>Year Founded:</strong> <span id="Gtown-founded"></span></p>
+        <p><strong>Town Popluation:</strong> <span id="Gtown-population"></span></p>
         <img src="images/blooms-600.jpg" alt="Sunset with spring blossoms">
       </section>
      
       <section class="springfield">
         <h3>Springfield</h3>
-        <p>Town Motto: <span id="Stown-motto"></span></p>
-        <p>Average Rainfall: <span id="Stown-rainfall"></span> Inche(s)</p>
-        <p>Year Founded: <span id="Stown-founded"></span></p>
-        <p>Town Popluation: <span id="Stown-population"></span></p>
+        <p><strong>Town Motto:</strong> <span id="Stown-motto"></span></p>
+        <p><strong>Average Rainfall:</strong> <span id="Stown-rainfall"></span> Inche(s)</p>
+        <p><strong>Year Founded:</strong> <span id="Stown-founded"></span></p>
+        <p><strong>Town Popluation:</strong> <span id="Stown-population"></span></p>
         <img src="images/smallred-600.jpg" alt="Old town Springfield">
       </section>
     </div>
@@ -81,11 +81,12 @@
       <p>123 Main St. Franklin, US 99999</p>
       <p>Google Map</p>
     </address>
-    <div class="footer-bar">&copy;2018 | All Rights Reserved | Weather or Not? | <span id="currentdate"></span> | Weather Data Courtesy of: <a href="https://openweathermap.org">OpenWeatherMap</a>
+    <div class="footer-bar">&copy;2018 | All Rights Reserved | Weather or Not? | <span id="currentdate"></span>  Weather Data Courtesy of: <a href="https://openweathermap.org">OpenWeatherMap</a>
     </div>
   </footer>
    
-   <script src="scriptscurrentdate.js"></script>
+   <script src="scripts/navigation.js"></script>
+   <script src="scripts/currentdate.js"></script>
    <script src="scripts/towninfo.js"></script>
 
  </body>

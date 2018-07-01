@@ -43,18 +43,6 @@ header .subheading {
   font-size: 1.5rem;
 }
 
-nav{}
-
-main {}
-
-main section {
-  display: grid;
-  grid-template-columns: 1fr;
-}
-
-main figure {
-}
-
 main h3 {
   font-family: 'Paytone One', sans-serif;
   color: #0376ff;
@@ -119,9 +107,6 @@ footer.contact ul li{
 .town-article { 
   padding: 5px;
 }
-main{
-  display: grid;
-}
 
 .home-grid{
   display: grid;
@@ -156,7 +141,7 @@ main{
   font-family: 'Paytone One', sans-serif;
   list-style: none;
   padding-left: 0;
-  
+  background-color: #03a8e8;
   overflow: hidden;
 }
 

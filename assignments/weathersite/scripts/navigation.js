@@ -9,9 +9,9 @@ if (pageHREF !=="") {
   //loop through all the menu items in the navigation
   for(i=0; i<menu.length; i++) {
     var currentURL = (menu[i].getAttribute("href"));
-    menu[i].parentNode.className="";//turn off highlighting by default
+    menu[i].parentNode.className=""; //turn off highlighting by default
     if (currentURL===pageHREF) {
-      menu[i].parentNode.className="active";//turn on if a match
+      menu[i].parentNode.className="active"; //turn on if a match
     } 
   } 
 } 

@@ -2,7 +2,7 @@
     
   .hamburger {display: none; }
   
-  .home-grid {
+  .home-grid  {
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 0;
   }
@@ -11,5 +11,6 @@
     grid-column-start: 1;
     grid-column-end: 4;
   }
+  
   
 }

@@ -234,3 +234,7 @@ main p {
   padding: 1rem;
 }
 
+#mainmenu a:active {
+  background-color: #fff;
+  color: #10fbff;
+}

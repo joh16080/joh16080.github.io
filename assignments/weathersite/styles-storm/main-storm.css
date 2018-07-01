@@ -121,7 +121,6 @@ footer.contact ul li{
   font-family: 'Paytone One', sans-serif;
   list-style: none;
   padding-left: 0;
-  background-color: #03a8e8;
   overflow: hidden;
 }
 
@@ -162,6 +161,11 @@ footer.contact ul li{
 .navigation.responsive li a:hover { 
   background-color: #10fbff;
   color: #03a8e8;
+}
+
+#mainmenu a:active {
+  background-color: #fff;
+  color: #10fbff;
 }
 
 /*form css */
@@ -234,7 +238,3 @@ main p {
   padding: 1rem;
 }
 
-#mainmenu a:active {
-  background-color: #fff;
-  color: #10fbff;
-}

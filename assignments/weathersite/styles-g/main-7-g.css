@@ -172,7 +172,6 @@ footer address p{
   color: #03a8e8;
 }
 
-#mainmenu a:active {
-  background-color: #fff;
+.navigation.responsive li.active a {
   color: #10fbff;
 }

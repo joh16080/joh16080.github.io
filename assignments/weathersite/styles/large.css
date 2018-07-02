@@ -1,6 +1,12 @@
 @media only screen and (min-width: 64em ) {
     
-  .hamburger {display: none; }
+  .hamburger {display: none;}
+  
+  .navigation.responsive li.active a {
+      color: #10fbff;
+      border: .05px solid;
+     }
+  
   /*----------cities-----------*/
   main article img{
     width: 500px;
@@ -34,16 +40,13 @@
 /*---------------Gallery-------------*/
    .gallery-grid {
     grid-template-columns: 1fr 1fr 1fr;
-    margin-top: 0;
   }
-
-  /*.gallery-grid figure:hover{
-    border: .05em solid;
-    background: 0;
-    padding: .05em;
-    box-shadow: 3px 3px 3px #bbb;
-  }*/
-
+  
+  .gallery-grid figure img {
+    width: 100%;
+    
+  }
+  
   /*needs to have a border when box is hovered over*/
   .gallery-grid img:hover{
     box-shadow: 3px 3px 3px #bbb;

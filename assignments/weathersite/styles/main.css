@@ -1,4 +1,4 @@
-
+/*--------------------all----------------*/
 * { box-sizing: border-box;}  
 
 body {
@@ -12,6 +12,19 @@ header, nav, main, footer {
   margin: 0 auto;
 }
 
+main h2 {
+  font-family: 'Paytone One', sans-serif;
+  color: #0376ff;
+}
+
+main h3 {
+  font-family: 'Paytone One', sans-serif;
+  color: #0376ff;
+}
+/*---------------------------------------*/
+
+
+/*----------------header---------------*/
 header {
   display: flex;
   background-color: #03e8ab;
@@ -43,146 +56,10 @@ header .subheading {
   font-style: italic;
   font-size: 1.5rem;
 }
+/*----------------------------------------------*/
 
-nav{}
-
-main {}
-
-main h2 {
-  font-family: 'Paytone One', sans-serif;
-  color: #0376ff;
-  text-align: center;
-}
-
-main content {
-  align-content: center;
-}
-
-main section {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-main figure {
-}
-
-main figure img {
-  width: 100%;
-  height: auto;
-  margin: 0;
-  padding: 0;
-  align-content: center;
-}
-
-main article{
-   padding:.25rem;  
-   text-align: center;  
-}
-
-main article img{
-  width: 85%;
-  height: auto;
-}
-
-main h3 {
-  font-family: 'Paytone One', sans-serif;
-  color: #0376ff;
-}
-
-footer {
-  font-family: 'Playfair Display', serif;
-  font-size: 16px;
-  clear: both;
-  flex-flow: column;
-  align-items: center;
-  justify-content: center;
-  padding: 0;
-}
-
-/* class selectors */
-
-
-.title {
-  font-family: 'Paytone One', sans-serif;
-}
-
-.subheading {
-  flex: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.weather-summary {
-  flex: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.weather-summary h3 {
-  text-align: center;
-}
-
-.current {
-  font-size: 1.5rem;
-}
-
-.current p {
-  text-align: center;
-}
-
-.current picture img {
-  margin: 0;
-}
-
-.highlow{
-  text-align: center;
-}
-
-.conditions{
-  text-align: center;
-}
-
-.forecast {
-  display: none;
-}
-
-footer address {
-  background-color: #03a8e8;
-  clear: both;
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  justify-content: center;
-  padding: 1.5em;
-}
-
-footer address p{
-  margin: 0.2em;
-}
-
-footer.contact ul li{
-  align-content: center;
-  justify-content: center;
-}
-
-.footer-bar{
-  flex-flow: column;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
-  background-color: #03e8ab;
-}
-
-.town-article { 
-  padding: 5px;
-}
  
-/*----------------------header nav----------------------*/
+/*----------------------header nav ALL----------------------*/
 .hamburger {
   display: inline-flex; 
   top: 2.0rem;
@@ -234,11 +111,129 @@ footer.contact ul li{
   background-color: #10fbff;
   color: #03a8e8;
 }
+
+.navigation.responsive li.active a {
+      color: #10fbff;
+      border: .05px solid;
+}
+/*------------------------------------------*/
+
+
+/*--------------------footer ALL PAGES---------------------*/
+footer {
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  clear: both;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+footer address {
+  background-color: #03a8e8;
+  clear: both;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5em;
+}
+
+footer address p{
+  margin: 0.2em;
+}
+
+footer.contact ul li{
+  align-content: center;
+  justify-content: center;
+}
+
+.footer-bar{
+  flex-flow: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #03e8ab;
+}
+/*--------------------------------------*/
+
+
+/*---------------------cities------------------*/
+.town-article { 
+  padding: 5px;
+}
+
+main figure img {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  align-content: center;
+}
+
+main article{
+   padding:.25rem;  
+   text-align: center;  
+}
+
+main article img{
+  width: 85%;
+  height: auto;
+}
+
+.title {
+  font-family: 'Paytone One', sans-serif;
+}
+
+.subheading {
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.weather-summary {
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.weather-summary h3 {
+  text-align: center;
+}
+
+.current {
+  font-size: 1.5rem;
+}
+
+.current p {
+  text-align: center;
+}
+
+.current picture img {
+  margin: 0;
+}
+
+.highlow{
+  text-align: center;
+}
+
+.conditions{
+  text-align: center;
+}
+
+.forecast {
+  display: none;
+}
+/*---------------------------------------------*/
+
  
 /*--------------------form-------------------------*/
-
-/*form css */
-
 form fieldset {
   margin: 2rem;
   border: 5px solid #0376ff;
@@ -308,22 +303,19 @@ form label.top input:required:valid {
 }
 /*--------------------------------------------------------------*/
 
-/*-----------------------Gallery----------------------*/
-.gallery {
-  display: grid;
-}
 
+/*-----------------------Gallery----------------------*/
 .gallery-grid{
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: .05em;
   justify-content: center;
-  
+  align-content: center;
 }
 
 .gallery-grid figure {
   margin: 10px;
-  border: .05px solid;
+  border:  solid .05em;
   padding: 1em;
 }
 
@@ -340,11 +332,7 @@ form label.top input:required:valid {
 
 
 /*-------------Index---------------*/
-.town-article { 
-  padding: 5px;
-}
-
-.home-grid{
+.home-grid {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: .05em;
@@ -366,3 +354,9 @@ form label.top input:required:valid {
   font-size: 1rem;
 }
 /*-----------------------------*/
+
+/*------------Thank you------------*/
+.thankyou {
+  text-align: center;
+}
+/*----------------------*/

@@ -73,8 +73,8 @@
     .forecast {
       display: flex;
       width: 875px;
-      margin: 25px;
-      padding: 20px;
+      margin:0;
+      padding: 10px;
       box-shadow: 3px 3px 3px #bbb;
       border: .1rem solid;  
      }

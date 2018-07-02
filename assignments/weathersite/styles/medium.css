@@ -63,16 +63,18 @@
       grid-template-columns: .0fr 0.85fr;
      }
   
-   main figure img {
+   .mainpicture {
       width: 350px;
       float: left;
       margin: 7px;
+      box-shadow: 3px 3px 3px #bbb;
      }
   
-    main article img{
+    .townarticle img{
       width: 350px;
       float: right;
       margin: 7px;
+      box-shadow: 3px 3px 3px #bbb;
      }
   
     table{
@@ -103,9 +105,14 @@
   
   /*--------Gallery-------------*/
       .gallery-grid {
-      grid-template-columns: 1fr 1fr;
-      grid-gap: .05em;
-    }
+        grid-template-columns: 1fr 1fr;
+        grid-gap: .05em;
+      } 
+  
+      .cities:nth-child(odd) < img {
+        grid-column: 2;
+      }
+  
   /*-----------------------------*/
   
   /*-----------------Index----------------*/

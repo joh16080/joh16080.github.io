@@ -167,7 +167,7 @@ footer.contact ul li{
   padding: 5px;
 }
 
-main figure img {
+.mainpicture {
   width: 100%;
   height: auto;
   margin: 0;
@@ -175,12 +175,12 @@ main figure img {
   align-content: center;
 }
 
-main article{
+.townarticle {
    padding:.25rem;  
    text-align: center;  
 }
 
-main article img{
+.townarticle img{
   width: 85%;
   height: auto;
 }

@@ -1,0 +1,69 @@
+@media only screen and (min-width: 64em ) {
+    
+  .hamburger {display: none; }
+  /*----------cities-----------*/
+  main article img{
+    width: 500px;
+    float: right;
+    margin: 7px;
+    box-shadow: 3px 3px 3px #bbb;
+  }
+  main figure img {
+    width: 500px;
+    margin: 15px;
+  }
+  .forecast {
+    width: 950px;
+    padding: 5px;
+  }
+  table{
+      border: 0;
+      padding-left: 9%;
+      padding-bottom: 10px;
+     }
+/*-----------------------*/  
+  
+  
+/*----- Storm Form----- */
+  form label.sbs {
+    padding: .4rem 0;
+  }
+/*_________________*/
+  
+  
+/*---------------Gallery-------------*/
+   .gallery-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 0;
+  }
+
+  /*.gallery-grid figure:hover{
+    border: .05em solid;
+    background: 0;
+    padding: .05em;
+    box-shadow: 3px 3px 3px #bbb;
+  }*/
+
+  /*needs to have a border when box is hovered over*/
+  .gallery-grid img:hover{
+    box-shadow: 3px 3px 3px #bbb;
+  }  
+/*----------------------------------*/
+  
+/*--------------Index-----------------------*/
+   .home-grid  {
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 0;
+  }
+  
+  .weatherstory {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  
+  .cities {
+    grid-template-columns: 1fr;
+  }
+/*------------------------------------------*/  
+  
+}

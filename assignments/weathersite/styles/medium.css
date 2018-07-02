@@ -2,6 +2,7 @@
 
     section.forecast { display: inline-block; }  
   
+  /*--------------------Nav---------------*/
     nav {
       font-family: 'Paytone One', sans-serif;
       background-color: #03a8e8;
@@ -40,10 +41,20 @@
       display:none; 
      } 
   
+    .navigation.responsive {
+      display:inline-flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+     }
+  
     .hamburger {
       display: none; 
      }
-
+  /*-----------------------------------------------*/
+  
+  
+  /*----------------City pages-----------------------------*/
     main h2 {
       color: #0376ff;
       display: flex;
@@ -92,12 +103,22 @@
       font-size: 1.5rem;
       margin: 5px;
      }
+  /*-------------------------------------------*/
   
-    .navigation.responsive {
-      display:inline-flex;
+  /*--------Gallery-------------*/
+      .gallery-grid {
+      grid-template-columns: 1fr 1fr;
+      grid-gap: .05em;
+    }
+  /*-----------------------------*/
+  
+  /*-----------------Index----------------*/
+    .cities {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
       justify-content: center;
-      align-items: center;
-      width: 100%;
-     }
+      align-content: center;
+    }
+  /*---------------------------------------*/
   
   }

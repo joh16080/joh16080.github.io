@@ -15,6 +15,8 @@ header, nav, main, footer {
 main h2 {
   font-family: 'Paytone One', sans-serif;
   color: #0376ff;
+  text-align: center;
+  font-size: 1.8rem;
 }
 
 main h3 {
@@ -230,6 +232,7 @@ main article img{
 .forecast {
   display: none;
 }
+
 /*---------------------------------------------*/
 
  
@@ -352,6 +355,10 @@ form label.top input:required:valid {
 
 .home-grid section p {
   font-size: 1rem;
+}
+
+article h3{
+  font-size: 1.5em;
 }
 /*-----------------------------*/
 

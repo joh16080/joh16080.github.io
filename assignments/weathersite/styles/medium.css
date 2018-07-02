@@ -119,6 +119,9 @@
       justify-content: center;
       align-content: center;
     }
+    article h3{
+    font-size: 1.8em;
+    }
   /*---------------------------------------*/
   
   }

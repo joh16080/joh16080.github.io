@@ -53,10 +53,22 @@ header img {
   margin-right: 10px;
 }
 
-header .subheading {
+header.subheading {
   font-family: 'Paytone One', sans-serif;
   font-style: italic;
   font-size: 1.5rem;
+}
+
+.title {
+  font-family: 'Paytone One', sans-serif;
+}
+
+.subheading {
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 /*----------------------------------------------*/
 
@@ -173,6 +185,7 @@ footer.contact ul li{
   margin: 0;
   padding: 0;
   align-content: center;
+  box-shadow: 3px 3px 3px #bbb;
 }
 
 .townarticle {
@@ -183,18 +196,7 @@ footer.contact ul li{
 .townarticle img{
   width: 85%;
   height: auto;
-}
-
-.title {
-  font-family: 'Paytone One', sans-serif;
-}
-
-.subheading {
-  flex: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  box-shadow: 3px 3px 3px #bbb;
 }
 
 .weather-summary {
@@ -206,14 +208,6 @@ footer.contact ul li{
 }
 
 .weather-summary h3 {
-  text-align: center;
-}
-
-.current {
-  font-size: 1.5rem;
-}
-
-.current p {
   text-align: center;
 }
 
@@ -325,6 +319,7 @@ form label.top input:required:valid {
 .gallery-grid figure img{
   width:100%;
   height: auto;
+  box-shadow: 3px 3px 3px #bbb;
 }
 
 .gallery-grid figcaption{
@@ -351,6 +346,7 @@ form label.top input:required:valid {
 .home-grid section img {
   width:100%;
   height: auto;
+  box-shadow: 3px 3px 3px #bbb;
 }
 
 .home-grid section p {

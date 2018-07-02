@@ -109,9 +109,6 @@
         grid-gap: .05em;
       } 
   
-      .cities:nth-child(odd) < img {
-        grid-column: 2;
-      }
   
   /*-----------------------------*/
   

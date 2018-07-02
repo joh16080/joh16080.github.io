@@ -27,7 +27,7 @@
       text-decoration: none;
      }
 
-    .navigation.responsive li.active a {
+     li.active a {
       color: #10fbff;
       border: .05px solid;
      }
@@ -37,11 +37,7 @@
       color: #03a8e8;
      }
   
-    .navigation button { 
-      display:none; 
-     } 
-  
-    .navigation.responsive {
+    .responsive {
       display:inline-flex;
       justify-content: center;
       align-items: center;

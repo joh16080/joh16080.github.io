@@ -179,23 +179,15 @@ footer.contact ul li{
   padding: 5px;
 }
 
-.mainpicture {
-  width: 100%;
+img.town-article {
+  width: 85%;
   height: auto;
-  margin: 0;
-  padding: 0;
-  align-content: center;
   box-shadow: 3px 3px 3px #bbb;
 }
 
-.townarticle {
-   padding:.25rem;  
-   text-align: center;  
-}
-
-.townarticle img{
-  width: 85%;
-  height: auto;
+ img.mainpicture {
+  display: inline-flex;
+  margin: 0;
   box-shadow: 3px 3px 3px #bbb;
 }
 

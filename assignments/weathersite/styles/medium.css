@@ -51,26 +51,9 @@
   
   
   /*----------------City pages-----------------------------*/
-    main h2 {
-      color: #0376ff;
-      display: flex;
-      text-align: center;
-      justify-content: center;
-     }
+    
   
-    main content {
-      display: grid;
-      grid-template-columns: .0fr 0.85fr;
-     }
-  
-   .mainpicture {
-      width: 350px;
-      float: left;
-      margin: 7px;
-      box-shadow: 3px 3px 3px #bbb;
-     }
-  
-    .townarticle img{
+    img.town-article {
       width: 350px;
       float: right;
       margin: 7px;

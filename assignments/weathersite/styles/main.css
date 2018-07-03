@@ -205,6 +205,9 @@ img.town-article {
   align-items: center;
   justify-content: center;
 }
+#currentCond {
+  text-transform: capitalize;
+}
 
 .weather-summary h3 {
   text-align: center;

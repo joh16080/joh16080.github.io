@@ -51,7 +51,12 @@
   
   
   /*----------------City pages-----------------------------*/
-    
+    .weathersum {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      justify-content: center;
+      align-content: center;
+    }
   
     img.town-article {
       width: 350px;

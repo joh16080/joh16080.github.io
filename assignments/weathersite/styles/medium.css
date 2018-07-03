@@ -108,9 +108,6 @@
       align-content: center;
     }
   
-  section:nth-child(even) > img {
-    grid-column: 2;
-  }
   /*---------------------------------------*/
   
   }

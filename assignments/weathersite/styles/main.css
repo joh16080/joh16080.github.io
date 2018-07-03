@@ -205,6 +205,7 @@ img.town-article {
   align-items: center;
   justify-content: center;
 }
+
 #currentCond {
   text-transform: capitalize;
 }
@@ -357,7 +358,7 @@ form label.top input:required:valid {
 
 article.cities h3, section.weatherstory h3{
   text-align: center;
-  font-size: 1.5em;
+  font-size: 2em;
 }
 /*-----------------------------*/
 

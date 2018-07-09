@@ -3,9 +3,10 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Alcove Digital Systems</title>
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="styles/style.css">
 	<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 	<script>
+      
 	$(function(){
 		// jQuery Code goes here
         var togglestyle = function () {
@@ -22,13 +23,13 @@
 	 })
      $(function(){
        //append, appendTo, prepend, and prependTo
-       $('.coreValues').append("<li><strong>This is brand new !!</strong></li>");
+       //$('.coreValues').append("<li><strong>This is brand new !!</strong></li>");
       
-       $("<li><strong>This is also great !!</strong></li>").appendTo(".coreValues");
+       //$("<li><strong>This is also great !!</strong></li>").appendTo(".coreValues");
        
-       $('.coreValues').prepend("<li><strong>This is brand new !!</strong></li>");
+       $('.coreValues').prepend("<li><strong>This is brand new!!</strong></li>");
        
-       $("<li><strong>This is also great !!</strong></li>").prependTo(".coreValues");
+       $("<li><strong>This is also great!!</strong></li>").prependTo(".coreValues");
      })  
     $(function(){
       //input
@@ -39,30 +40,17 @@
           }
         }
       $('#ReqAQuoteBtn').click( FillEmpty );
-    }) 
-    //$(function(){
-      //var box1 = $('.box1');
-      //var box2 = $('.box2');
-      //function LeftToRight(){
-        //if(box2.html() == ''){
-          //Get content from box1 and put it into box2
-          //Empty out box1
-          //box2.html( box1.html() );
-          //box1.html('');
-        //}
-      //}
-      //$('LeftToRight').click( LeftToRight );
-      
-      //function RightToLeft(){
-        //if(box1.html() == ''){
-          //Get content from box2 and put it into box2
-          //Empty out of box2
-          //box1.html( box2.html() );
-          //box2.html('');
-        //}
-      //}
-      //$('#RightToLeft').click( RightToLeft );
-    //}) 
+    })  
+    $(function(){
+      $('.servicesBtn').css('color', '#fff');
+      $('#alcoveLogo').css('opacity', 0.4);
+      $('button').css('border', '1px blue');
+      //$('h2').css('border', '1px solid red');
+      //$('input[name!="phoneNum"]').css('border', '1px solid red');
+      //$('input[name="nameVal"]').css('border', '1px solid red');
+      //$('input[name*="Num"]').css('border', '1px solid red');
+      //$('input[name$="Val"]').css('border', '1px solid red');
+    })  
       
 	</script>
 </head>
@@ -70,7 +58,7 @@
 <!-- Master Container Div -->
 	<div class="container">
 	<!-- Header Div containing the Logo & Navigation Links -->
-		<div class="header">
+		<header class="header">
 			<div class="logo" id="alcoveLogo"></div>
 			<div class="navbar">
 				<ul class="navigation">
@@ -82,9 +70,9 @@
 					<li><a href="#">Contact Us</a></li>
 				</ul>
 			</div>
-		</div>
+		</header>
 		<!-- Content Div -->
-		<div class="content">
+		<main class="content">
 			<div class="headImage"></div>
 			<!-- Get a Free Quote Form -->
 			<div class="registerForm">
@@ -143,9 +131,9 @@
 				<div class="boxes box3">
 					<h2>Our Work</h2>
 					<hr>
-					<a href="#" class="showcaseBtn"><img src="img/websites.jpg" alt=""></a>
-					<a href="#" class="showcaseBtn"><img src="img/mobileapps.jpg" alt=""></a>
-					<a href="#" class="showcaseBtn"><img src="img/webapps.jpg" alt=""></a>
+					<a href="#" class="showcaseBtn"><img src="images/websites.jpg" alt=""></a>
+					<a href="#" class="showcaseBtn"><img src="images/mobileapps.jpg" alt=""></a>
+					<a href="#" class="showcaseBtn"><img src="images/webapps.jpg" alt=""></a>
 					<select name="showcaseOthers" id="showcaseOthers">
 						<option value="01">UI/UX Design</option>
 						<option value="02">Big Data Implementation</option>
@@ -154,11 +142,18 @@
 					</select>
 				</div>
 			</div>
-		</div>
+		</main>
 
-		<div class="footer">
+		<footer class="footer">
 			<h5>© Alcove Digital Systems | <a href="#">Terms of Use</a></h5>
-		</div>
+            <nav>
+              <a href="animatedMenuBegin.html">Animated Menu</a>
+              <a href="DropDownMenuBegin.html">Drop Down Menu</a>
+              <a href="fruitBasketBegin.html">Fruit Basket</a>
+              <a href="InsertHTMLBegin.html">Insert HTML</a>
+              <a href="toggleButtonBegin.html">Toggle Button</a>
+            </nav>
+		</footer>
 	</div>
 </body>
 </html>

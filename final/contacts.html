@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Mountain Spoke-</title>
+  <meta name="description" content="A contemporary biking enthusiasts store in Bozeman, Montana">
+    <link rel="stylesheet" href="styles/normalize.css"> 
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link href="https://fonts.googleapis.com/css?family=Chonburi%7cOpen+Sans" rel="stylesheet">
+  <script src="scripts/hamburger.js"></script>
+</head>
+  
+ <body>
+   
+  <nav>
+    <ul class="navigation" id="mainmenu">
+    	<li><a href="index.html">Home</a></li>
+        <li><a href="tours.html">Tours</a></li>
+    	<li><a href="events.html">Events</a></li>
+        <li><a href="sales.html">Sales</a></li>
+        <li><a href="services.html">Services</a></li>
+    	<li><a href="contacts.html">Contact Us</a></li>
+    </ul>		
+  </nav>
+  
+  <header>
+    <div class="logo">
+      <img src="images/logo-alldark-03.png" alt="The Mountain Spoke Logo">
+    </div>
+    <div class="title">
+      <h1>The Mountain Spoke</h1>
+      <div class="subheading">Sweat up the hills &amp; coast down them</div>
+    </div>
+      <button class="hamburger" onclick="toggleHam()">&#9776;</button>
+  </header>
+
+  <main>
+    
+     <div class="contactinfo">
+      <form method="get" action="thanks.html">
+        <fieldset>
+          <legend>Please Contact Us</legend>
+            <label class="top">Full Name &ast;<input type="text" name="fullname" pattern="[[:alpha:]]{5}" placeholder=" ex. John Doe" required></label>
+
+            <label class="top">Phone  <input type="tel" name="phone" placeholder="123456789"></label>
+
+            <label class="top">Email &ast;<input type="email" name="email"  placeholder="someone@email.com" required></label>
+            
+              
+            <label class="top">Message<textarea name="textarea"></textarea></label>
+          </fieldset>
+        
+          <input type="submit" value="Send Message" class="submitBtn">
+        
+        </form>
+      
+        <div class="iframe">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2787.93144104059!2d-111.09291154905968!3d45.672276627453776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5345459ab72cb6df%3A0xbb98968f9648ea88!2s3950+Valley+Commons+Dr%2C+Bozeman%2C+MT+59718!5e0!3m2!1sen!2sus!4v1531967219343" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+       
+       <div class="info">
+          <address>
+            <h3>The Mountain Spoke</h3>
+            <p>3950 Valley Commons Drive</p>
+            <p>Bozeman, Montana 59718</p>
+        </address>
+          <p>1.406.555.1245</p>
+       </div>
+       
+    </div>
+    
+  </main>
+    
+  <footer>
+    
+     <p>"It is by riding a bicycle that you learn the contours of a country best,</p><p> since you have to sweat up the hills and coast down them."</p>
+      <p>~ Ernest Hemingway</p>
+    
+    <div class="footer-bar">&copy;2018 | All Rights Reserved | The Mountain Spoke | <span id="currentdate"></span> 
+    </div>
+  </footer>
+   
+   <script src="scripts/wayfinding.js"></script>
+   <script src="scripts/currentdate.js"></script>
+   <script src="scripts/towninfo.js"></script>
+
+ </body>
+</html>

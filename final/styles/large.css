@@ -1,0 +1,37 @@
+@media only screen and (min-width: 64em ) {
+    
+  .hamburger {display: none;}
+  
+  /*--------------Index-----------------------*/
+   .home-grid  {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 0;
+  }
+  
+  #mainimg {
+    grid-column-start: 1;
+    grid-column-end: 5;
+  }
+  
+  .pages {
+    grid-template-columns: 1fr;
+  }
+  
+  section.home:nth-child(1){
+    grid-row: 8;
+  }
+  
+  section.home:nth-child(6){
+    grid-row: 1;
+  }
+  
+  section.home:nth-child(2){
+    grid-row: 2;
+  }
+  
+  article.pages h3, section.mainimg h3{
+  text-align: center;
+  }
+/*------------------------------------------*/  
+  
+ 

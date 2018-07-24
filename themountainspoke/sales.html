@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Mountain Spoke-</title>
+  <meta name="description" content="A contemporary biking enthusiasts store in Bozeman, Montana">
+    <link rel="stylesheet" href="styles/normalize.css"> 
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link href="https://fonts.googleapis.com/css?family=Chonburi%7cOpen+Sans" rel="stylesheet">
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script       src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+      <script>
+      $( function() {
+        $( "#accordion" ).accordion({
+          heightStyle:"content",
+          collapsible: true,
+          active: false
+        });
+        
+        $("#accordion").accordion("option", "icons", {
+        // You can change this to differnt Font Awesome class  
+        'header': 'icon-expand',
+        // You can change this to differnt Font Awesome class
+        'activeHeader': 'icon-collapse'
+        });
+      } );
+      </script>
+    <script src="scripts/hamburger.js"></script>
+</head>
+  
+ <body>
+   
+  <nav>
+    <ul class="navigation" id="mainmenu">
+    	<li><a href="index.html">Home</a></li>
+        <li><a href="tours.html">Tours</a></li>
+    	<li><a href="events.html">Events</a></li>
+        <li><a href="sales.html">Sales</a></li>
+        <li><a href="services.html">Services</a></li>
+    	<li><a href="contacts.html">Contact Us</a></li>
+    </ul>		
+  </nav>
+  
+  <header>
+    <div class="logo">
+      <img src="images/logo-alldark-03.png" alt="The Mountain Spoke Logo">
+    </div>
+    <div class="title">
+      <h1>The Mountain Spoke</h1>
+      <div class="subheading">Sweat up the hills &amp; coast down them</div>
+    </div>
+      <button class="hamburger" onclick="toggleHam()">&#9776;</button>
+  </header>
+
+
+    
+  <main>
+    <div class="blue" id="accordion">
+    <h3>Enter Title 1</h3>
+
+    <div>
+        <img src="http://placehold.it/150x170" style=
+        "margin-right: 10px; float: left;">
+
+        <p>Bacon ipsum dolor sit amet jerky capicola shank ball tip venison.
+        Prosciutto kielbasa chicken, pork loin shoulder fatback frankfurter
+        tenderloin short loin andouille capicola filet mignon. Turducken boudin
+        prosciutto pork, ball tip tri-tip pork belly pork loin. Frankfurter
+        kielbasa ball tip short ribs pork belly, ham hock chicken meatball
+        brisket beef flank jerky. Cow hamburger meatloaf doner short ribs
+        turducken ham tenderloin ground round flank jerky jowl corned beef
+        spare ribs. T-bone salami kielbasa boudin biltong short loin hamburger
+        beef pancetta sirloin tenderloin shank ball tip.</p>
+    </div>
+
+    <h3>Enter Title 2</h3>
+
+    <div>
+        <p>Bacon ipsum dolor sit amet jerky capicola shank ball tip venison.
+        Prosciutto kielbasa chicken, pork loin shoulder fatback frankfurter
+        tenderloin short loin andouille capicola filet mignon. Turducken boudin
+        prosciutto pork, ball tip tri-tip pork belly pork loin. Frankfurter
+        kielbasa ball tip short ribs pork belly, ham hock chicken meatball
+        brisket beef flank jerky. Cow hamburger meatloaf doner short ribs
+        turducken ham tenderloin ground round flank jerky jowl corned beef
+        spare ribs. T-bone salami kielbasa boudin biltong short loin hamburger
+        beef pancetta sirloin tenderloin shank ball tip.</p>
+
+        <ul>
+            <li>List Item 1</li>
+
+            <li>List Item 2</li>
+
+            <li>List Item 3</li>
+
+            <li>List Item 4</li>
+        </ul>
+    </div>
+
+    <h3>Enter Title 3</h3>
+
+    <div>
+        <p>Bacon ipsum dolor sit amet jerky capicola shank ball tip venison.
+        Prosciutto kielbasa chicken, pork loin shoulder fatback frankfurter
+        tenderloin short loin andouille capicola filet mignon. Turducken boudin
+        prosciutto pork, ball tip tri-tip pork belly pork loin. Frankfurter
+        kielbasa ball tip short ribs pork belly, ham hock chicken meatball
+        brisket beef flank jerky. Cow hamburger meatloaf doner short ribs
+        turducken ham tenderloin ground round flank jerky jowl corned beef
+        spare ribs. T-bone salami kielbasa boudin biltong short loin hamburger
+        beef pancetta sirloin tenderloin shank ball tip.</p>
+    </div>
+</div>
+
+
+    
+
+  </main>
+    
+  <footer>
+    
+     <p>"It is by riding a bicycle that you learn the contours of a country best,</p><p> since you have to sweat up the hills and coast down them."</p>
+      <p>~ Ernest Hemingway</p>
+    
+    <div class="footer-bar">&copy;2018 | All Rights Reserved | The Mountain Spoke | <span id="currentdate"></span> 
+    </div>
+  </footer>
+   
+   <script src="scripts/wayfinding.js"></script>
+   <script src="scripts/currentdate.js"></script>
+   <script src="scripts/towninfo.js"></script>
+
+ </body>
+</html>

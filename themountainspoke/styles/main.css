@@ -307,3 +307,48 @@ form label.top input:required:valid {
   border: 3px solid #3c70a4;
 }
 /*--------------------*/
+
+/*-------------Sales------------------*/
+/* Main accordion css */
+#accordion {
+    /max-width: 700px; /* You can change this */
+    margin: auto; /* You can remove this if you do not need it to align in the center of your element */
+    display: block; 
+}
+
+/* This controls the text inside the div, you can play with this by adding background-color, border, etc. */
+#accordion div {
+    padding: 5px 10px;
+    display: inline-block;
+    overflow: auto;
+}
+
+/* This controls the header */
+#accordion h3 {
+    display: block;
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+    padding: 8px 11px;
+    font-family: Oswald, sans-serif;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin: 5px;
+}
+
+#accordion div p {
+  margin-top: 0;
+}
+
+/* This CSS controls the Font Awesome Icon, You can float: left as well and add margin-right: 5px; */
+.icon-expand,.icon-collapse {
+    float: right;
+    margin-top: 5px;
+}
+
+/* USE THE BELOW CSS FOR BLUE */
+.blue h3 {
+    background: #377ad0; /* You can change this to whatever background color you want for the header */
+    color: #fff; /* You can change this to whatever font color you want for the header */
+}
+/*--------------------------------------------------*/

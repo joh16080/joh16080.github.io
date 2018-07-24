@@ -215,6 +215,11 @@ article.pages h3, section.mainimg h3{
 .pages div{
   padding: .5rem;
 }
+
+.mainp{
+  text-align: center;
+  color: #3c70a4;
+}
 /*-----------------------------*/
 
 /*-----------Contacts---------------*/

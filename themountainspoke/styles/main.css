@@ -32,7 +32,6 @@ main h4 {
 }
 /*---------------------------------------*/
 
-
 /*----------------header---------------*/
 header {
   display: flex;
@@ -70,7 +69,6 @@ header img {
 }
 /*----------------------------------------------*/
 
- 
 /*----------------------header nav ALL----------------------*/
 .hamburger {
   display: inline-flex; 
@@ -130,7 +128,6 @@ header img {
       border: .05px solid;
 }
 /*------------------------------------------*/
-
 
 /*--------------------footer ALL PAGES---------------------*/
 footer {
@@ -373,13 +370,13 @@ form label.top input:required:valid {
 #accordion div {
     padding: 10px;
     display: grid;
+    grid-gap:.05em;
     overflow: auto;
     grid-template-columns: 1fr;
 }
 
 #accordion img{
   width: 100%;
-  margin-right: 10px;
 }
 
 #accordion table {
@@ -399,12 +396,11 @@ form label.top input:required:valid {
     margin: 5px;
 }
 
-
-
 .blue h3 {
     background: #3c70a4;  
     color: #fff; 
 }
+
 /*----------Tables----------------*/
 table{
   width: 100%;
@@ -413,13 +409,14 @@ table{
 table, th, td {
   border: 1px solid #2a2e2e;
   border-collapse: collapse;
+  padding: .3em
 }
 
 th {
   background-color: #d2d4d0;
-  
 }
 /*--------------------------------------------------*/
+
 /*--------------Tours-------------*/
 .tour-grid{
   display: grid;
@@ -454,3 +451,18 @@ th {
 }
 /*------------------------------*/
 
+/*-------References----------------*/
+
+.reference-grid{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: .05em;
+  justify-content: center;
+}
+
+.reference-grid section {
+  margin: 5px;
+  border: 3px solid #3c70a4;
+  padding: .5em;
+  }
+/*----------------------------------------*/

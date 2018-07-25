@@ -90,6 +90,7 @@
   }
  
   /*---------------------------------------*/
+  
   /*-------Events-----------------------*/
   .event-grid {
     display: grid;
@@ -105,6 +106,7 @@
     margin-top: 20px;
   }
   /*--------------------------------------*/
+  
   /*---------------Contact---------------*/
   .contactinfo {
       display: grid;
@@ -122,18 +124,22 @@
     grid-column-end: 4;
   }
   /*--------------------------------------*/
+  
   /*---------Sales-----------*/
   #accordion div {
     grid-template-columns: 1fr 1fr;
+    grid-gap: .5rem
 }
   #accordion table {
     margin-top: 0;
     margin-left: 5px;
 }
   /*------------------------*/
+  
   /*-------------Tours-----------------*/
   .tour-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
   /*---------------------------------*/
+  

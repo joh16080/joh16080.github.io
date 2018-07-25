@@ -40,9 +40,57 @@
 
     
   <main>
+    <h2>Cycle the Continental Divide</h2>
     
-    <p>Stuff Coming Soon!</p>
-
+    <div class="event-grid" >
+       <section class="event-img" >
+        <picture >
+        <img src="images/event-top-1000.jpg" alt="Man on bike over looking a city from a hill top"> 
+        </picture>
+       </section>
+      
+          <section class="event-info">
+            <h3>Cycle the Continental Divide</h3>
+            <h4>60K Trail Race</h4>
+            <p>7:30 AM on August 4, 2018</p>
+            <p>Explore the gorgeous trails along the Bridger Range. The race begins on the North Coottonwood Creek trail which links with the Ridge Trail that will take you to expansive views of Bozeman and the surrounding area. The race will continue on to the College 'M' Trail which will then link up with the Foothills trail that will lead you along the side of the range. Finally, meeting up with the North Cottonwood Creek trail and the exciting finish line!</p>
+            <p>This is a strenuous course and we strongly suggest using a training program in order to be up to the task of finishing. We believe in saftey first–helmets are required to be worn the entire race. There will be water and first aid stations throughout the course. </p>
+            <p>The cost is $100.00 which will include a biking jersey, water bottle, and finisher medal.</p>
+            <img src="images/event-action.jpg" alt="Man skidding on his bike on a dirt trail">
+          </section>   
+      
+      
+        
+      <form method="get" action="thanksevents.html">
+        <fieldset>
+          <legend>Applicant Information</legend>
+            <label class="top">Full Name &ast;<input type="text" name="fullname" pattern="[[:alpha:]]{5}" placeholder=" ex. John Doe" required></label>
+          
+            <label class="top">Phone &ast; <input type="tel" name="phone" placeholder="123456789" required></label>
+          
+            <label class="top">Email &ast;<input type="email" name="email"  placeholder="someone@email.com" required></label>
+          
+            <label class="top">Birthdate &ast; <input type="date" name="bday" placeholder="mm/dd/yyyy" required></label>
+          
+            <label class="top">Home State<input type="text" name="state"  placeholder="Montana"></label>
+          
+            <label class="top">Country<input type="text" name="country"  placeholder="United States of America"></label>
+             
+            <div>Gender</div>
+            <label class="sbs"><input type="radio" name="danger" value="yes"> Male</label>
+          
+            <label class="sbs"><input type="radio" name="danger" value="no"> Female</label>
+        
+          <legend>Special Accommodations</legend>
+          <label class="top">Comments<textarea   name="textarea"></textarea></label>
+        </fieldset>
+        
+        <input type="submit" value="Do This Race!" class="submitBtn">
+        
+      </form>
+      
+   
+    </div>  
   </main>
     
   <footer>

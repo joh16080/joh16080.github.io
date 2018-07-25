@@ -222,6 +222,49 @@ article.pages h3, section.mainimg h3{
 }
 /*-----------------------------*/
 
+/*---------Events----------------------*/
+.event-grid, .event-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: .05em;
+  justify-content: center;
+}
+
+.event-grid section {
+  margin: 5px;
+  border: 3px solid #3c70a4;
+  padding: .5em;
+}
+
+.event-grid section img {
+  width:100%;
+  height: auto;
+  box-shadow: 3px 3px 3px #bbb;
+}
+
+.event-grid section p {
+  font-size: 1rem;
+}
+
+section.mainimg h3{
+  text-align: left;
+  font-size: 2em;
+}
+
+.pages div{
+  padding: .5rem;
+}
+
+.mainp{
+  text-align: center;
+  color: #3c70a4;
+}
+
+.event-info img{
+  margin-top: 5px;
+}
+/*-------------------------------------*/
+
 /*-----------Contacts---------------*/
 .contactinfo {
   margin: 10px;
@@ -242,7 +285,7 @@ article.pages h3, section.mainimg h3{
     text-align: center  
   }
 
-    /*-------Contact form-------*/
+/*------------Forms--------------------------------*/
 form fieldset {
   margin: .5rem;
   border: 3px solid #3c70a4;
@@ -262,6 +305,13 @@ form label.top, form div {
   padding-top: 1rem;
   color: #2a2e2e;
   font-size: .9rem;
+}
+
+form label.sbs {
+  display: block;
+  padding: .75em 0;
+  color: #2a2e2e;
+  font-size: .85rem;
 }
 
 form label.top input, form label.top textarea, form label.top select {
@@ -298,13 +348,17 @@ form label.top input:required:valid {
   border-left: #3c70a4 solid 6px;
 }
 
-/*------------------------------------*/
+/*-------------------------------------------*/
 
 /*--------Thanks------*/
 .thankyou {
+  display:grid;
+  grid-template-columns: 1fr;  
   text-align: center;
   margin-bottom: 4rem;
   border: 3px solid #3c70a4;
+  margin: 10px;
+  padding: 1em;
 }
 /*--------------------*/
 

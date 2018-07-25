@@ -90,6 +90,21 @@
   }
  
   /*---------------------------------------*/
+  /*-------Events-----------------------*/
+  .event-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .event-img{
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  
+  .event-info img{
+    margin-top: 20px;
+  }
+  /*--------------------------------------*/
   /*---------------Contact---------------*/
   .contactinfo {
       display: grid;

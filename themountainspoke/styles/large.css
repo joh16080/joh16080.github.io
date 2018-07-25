@@ -45,3 +45,9 @@
     margin-top: 10px;
   }
   /*-----------------------*/
+   /*-------------Tours-----------------*/
+  .tour-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  /*---------------------------------*/

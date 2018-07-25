@@ -409,6 +409,29 @@ form label.top input:required:valid {
     background: #3c70a4;  
     color: #fff; 
 }
-
 /*--------------------------------------------------*/
+/*--------------Tours-------------*/
+.tour-grid{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: .05em;
+  justify-content: center;
+}
+
+.tour-grid section {
+  margin: 5px;
+  border: 3px solid #3c70a4;
+  padding: .5em;
+}
+
+.tour-grid section img {
+  width:100%;
+  height: auto;
+  box-shadow: 3px 3px 3px #bbb;
+}
+
+.tour-grid section p {
+  font-size: 1rem;
+}
+/*------------------------------*/
 

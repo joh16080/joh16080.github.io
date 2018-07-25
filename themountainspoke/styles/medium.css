@@ -126,9 +126,10 @@
   #accordion div {
     grid-template-columns: 1fr 1fr;
 }
-  #accordion div p{
-    margin: 10px;
-  }
+  #accordion table {
+    margin-top: 0;
+    margin-left: 5px;
+}
   /*------------------------*/
   /*-------------Tours-----------------*/
   .tour-grid {

@@ -377,16 +377,14 @@ form label.top input:required:valid {
     grid-template-columns: 1fr;
 }
 
-#accordion ul {
-  list-style-type: none;
-  margin:0;
-}
-
 #accordion img{
   width: 100%;
-  margin-right: 10px; 
+  margin-right: 10px;
 }
 
+#accordion table {
+  margin-top: 10px;
+}
 
 /* This controls the header */
 #accordion h3 {
@@ -401,13 +399,25 @@ form label.top input:required:valid {
     margin: 5px;
 }
 
-#accordion div p {
-  margin-top: 0;
-}
+
 
 .blue h3 {
     background: #3c70a4;  
     color: #fff; 
+}
+/*----------Tables----------------*/
+table{
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid #2a2e2e;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #d2d4d0;
+  
 }
 /*--------------------------------------------------*/
 /*--------------Tours-------------*/
@@ -432,6 +442,15 @@ form label.top input:required:valid {
 
 .tour-grid section p {
   font-size: 1rem;
+}
+
+.tour-grid section h3 {
+  margin-top: .5em;
+}
+
+.tourinfo{
+ text-align: center;
+ color: #3c70a4; 
 }
 /*------------------------------*/
 

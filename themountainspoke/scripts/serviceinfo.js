@@ -10,21 +10,21 @@ serviceinfoRequest.onload = function() {
   
   console.log(serviceData);
   
-  document.getElementById('Cfree-name').innerHTML =  serviceData.services[0].name;
+  document.getElementById('cFree-name').innerHTML =  serviceData.services[0].name;
   
-  document.getElementById('Cfree-motto').innerHTML =  serviceData.services[0].motto;
+  document.getElementById('cFree-motto').innerHTML =  serviceData.services[0].motto;
   
-  document.getElementById('Cfree-fsaftey').innerHTML =  serviceData.services[0].frameSaftey;
+  document.getElementById('cFree-fsaftey').innerHTML =  serviceData.services[0].frameSaftey;
   
-  document.getElementById('Cfree-drive').innerHTML =  serviceData.services[0].driveTrain;
+  document.getElementById('cFree-drive').innerHTML =  serviceData.services[0].driveTrain;
   
-  document.getElementById('Cfree-brake').innerHTML =  serviceData.services[0].brakeAdjust;
+  document.getElementById('cFree-brake').innerHTML =  serviceData.services[0].brakeAdjust;
   
-  document.getElementById('Cfree-chain').innerHTML =  serviceData.services[0].lubeChain;
+  document.getElementById('cFree-chain').innerHTML =  serviceData.services[0].lubeChain;
   
-  document.getElementById('Cfree-bolts').innerHTML =  serviceData.services[0].boltsTorque;
+  document.getElementById('cFree-bolts').innerHTML =  serviceData.services[0].boltsTorque;
   
-  document.getElementById('Cfree-saftey').innerHTML =  serviceData.services[0].safteyCheck;
+  document.getElementById('cFree-saftey').innerHTML =  serviceData.services[0].safteyCheck;
   
   document.getElementById('mudF-name').innerHTML =  serviceData.services[1].name;
   

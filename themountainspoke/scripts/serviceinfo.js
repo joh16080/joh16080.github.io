@@ -26,6 +26,8 @@ serviceinfoRequest.onload = function() {
   
   document.getElementById('cFree-saftey').innerHTML =  serviceData.service[0].safteyCheck;
   
+  document.getElementById('cFree-total').innerHTML =  serviceData.service[0].total;
+  
   document.getElementById('mudF-name').innerHTML =  serviceData.service[1].name;
   
   document.getElementById('mudF-motto').innerHTML =  serviceData.service[1].motto;
@@ -43,6 +45,8 @@ serviceinfoRequest.onload = function() {
   document.getElementById('mudF-gears').innerHTML =  serviceData.service[1].gearAdjust;
   
   document.getElementById('mudF-cable').innerHTML =  serviceData.service[1].cableHousing;
+  
+  document.getElementById('mudF-total').innerHTML =  serviceData.service[1].total;
   
   document.getElementById('shockB-name').innerHTML =  serviceData.service[2].name;
   
@@ -63,4 +67,6 @@ serviceinfoRequest.onload = function() {
   document.getElementById('shockB-strip').innerHTML =  serviceData.service[2].frameStrip;
   
   document.getElementById('shockB-fork').innerHTML =  serviceData.service[2].forkSaftey;
+  
+  document.getElementById('shockB-total').innerHTML =  serviceData.service[2].total;
 }

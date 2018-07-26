@@ -466,3 +466,17 @@ th {
   padding: .5em;
   }
 /*----------------------------------------*/
+
+/*------------Services-------------*/
+.service-grid{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: .05em;
+  justify-content: center;
+}
+
+.reference-grid section {
+  margin: 5px;
+  border: 3px solid #3c70a4;
+  padding: .5em;
+  }

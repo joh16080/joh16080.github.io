@@ -8,7 +8,8 @@
     "brakeAdjust": 10,
     "lubeChain": 8,
     "boltsTorque": 4,
-    "safteyCheck": 3
+    "safteyCheck": 3,
+    "total": 45
   } ,
   {
     "name": "Mudflinger",
@@ -19,7 +20,8 @@
     "frameClean": 6,
     "adjustHubs": 9,
     "gearAdjust": 11,
-    "cableHousing": 7
+    "cableHousing": 7,
+    "total": 96
   } ,
 
   {
@@ -30,7 +32,8 @@
     "seatClean": 10,
     "overHall": 25,
     "frameStrip": 20,
-    "forkSaftey": 15
+    "forkSaftey": 15,
+    "total": 166
   } 
  ]
 }

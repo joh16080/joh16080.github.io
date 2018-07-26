@@ -1,0 +1,37 @@
+{
+  "services" : [
+  {
+    "name": "Carefree",
+    "motto": "Basic Tune Up",
+    "frameSaftey": 5,
+    "driveTrain": 15,
+    "brakeAdjust": 10,
+    "lubeChain": 8,
+    "boltsTorque": 4,
+    "safteyCheck": 3,
+  },
+  {
+    "name": "Mudflinger",
+    "motto": "Intermediate Tune Up",
+    "careFree": 45,
+    "wheelCheck": 10,
+    "shiftersD": 8,
+    "frameClean": 6,
+    "adjustHubs": 9,
+    "gearAdjust": 11,
+    "cableHousing": 7,
+  },
+
+  {
+    "name": "Shockbuster",
+    "motto": "Advanced Tune Up",
+    "careFree": 45,
+    "mudFlinger": 51,
+    "seatClean": 10,
+    "overHall": 25,
+    "frameStrip": 20,
+    "forkSaftey": 15,
+  },
+]}
+
+//need to ALTER this file to fit Mtn. Spoke

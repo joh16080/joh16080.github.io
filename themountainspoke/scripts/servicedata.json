@@ -9,7 +9,7 @@
     "lubeChain": 8,
     "boltsTorque": 4,
     "safteyCheck": 3,
-  } ,
+  } 
   {
     "name": "Mudflinger",
     "motto": "Intermediate Tune Up",
@@ -20,7 +20,7 @@
     "adjustHubs": 9,
     "gearAdjust": 11,
     "cableHousing": 7,
-  } ,
+  } 
 
   {
     "name": "Shockbuster",
@@ -31,7 +31,7 @@
     "overHall": 25,
     "frameStrip": 20,
     "forkSaftey": 15,
-  } ,
+  } 
  ]
 }
 

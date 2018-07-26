@@ -1,6 +1,6 @@
 //connection to the API//
 let serviceinfoRequest = new XMLHttpRequest();
-let serviceinfoURL = 'https://joh16080.github.io/themountainspoke/scripts/json.json';
+let serviceinfoURL = 'https://joh16080.github.io/themountainspoke/scripts/servicedata.json';
 
 serviceinfoRequest.open('GET', serviceinfoURL, true);
 serviceinfoRequest.send();
@@ -63,5 +63,4 @@ serviceinfoRequest.onload = function() {
   document.getElementById('shockB-strip').innerHTML =  serviceData.service[2].frameStrip;
   
   document.getElementById('shockB-fork').innerHTML =  serviceData.service[2].forkSaftey;
-  
 }

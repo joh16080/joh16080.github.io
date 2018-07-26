@@ -275,6 +275,7 @@ section.mainimg h3{
  iframe { 
   width:100%;
   box-shadow: 3px 3px 3px #bbb;
+  height: 450px;
 }
 
   div.info {
@@ -391,8 +392,7 @@ form label.top input:required:valid {
     cursor: pointer;
     padding: 8px 11px;
     font-family: 'Chonburi', cursive;
-    letter-spacing: 1px;
-    font-weight: 700;
+    font-size: 1.4em;
     margin: 5px;
 }
 
@@ -409,10 +409,17 @@ table{
 table, th, td {
   border: 1px solid #2a2e2e;
   border-collapse: collapse;
-  padding: .3em
+  padding: .3em  
 }
 
 th {
+  background-color: #3c70a4;
+  font-size: 1.1em;
+  color: #fff;
+  font-family: 'Chonburi', cursive;
+}
+
+td{
   background-color: #d2d4d0;
 }
 /*--------------------------------------------------*/
@@ -475,8 +482,13 @@ th {
   justify-content: center;
 }
 
-.reference-grid section {
+.service-grid section {
   margin: 5px;
   border: 3px solid #3c70a4;
   padding: .5em;
   }
+
+.service-p {
+  text-align: center;
+  color: #3c70a4;
+}

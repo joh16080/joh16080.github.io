@@ -2,7 +2,7 @@
     
   .hamburger {display: none;}
   
-  /*--------------Index-----------------------*/
+/*--------------Index-----------------------*/
    .home-grid  {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-top: 0;
@@ -13,6 +13,10 @@
     grid-column-end: 5;
   }
   
+  #mainimg2 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+  }
   .pages {
     grid-template-columns: 1fr;
   }
@@ -33,21 +37,28 @@
   text-align: center;
   }
 /*------------------------------------------*/  
-  
- /*-----------form-------*/
+/*-----------form-------*/
   form label.sbs {
     padding: .4rem 0;
   }
-  /*--------------------*/
+/*--------------------*/
   
-  /*-------events----------*/
+/*-------events----------*/
   .event-info img{
     margin-top: 10px;
   }
-  /*-----------------------*/
-   /*-------------Tours-----------------*/
+/*-----------------------*/
+/*-------------Tours-----------------*/
   .tour-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
-  /*---------------------------------*/
+/*---------------------------------*/
+/*------------Services-----------*/
+  .service-grid {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+/*--------------------*/
+}

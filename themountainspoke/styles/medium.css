@@ -73,6 +73,11 @@
     grid-column-end: 3;
   }
   
+  #mainimg2{
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  
   .pages img{
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -87,6 +92,8 @@
   
   section.home:nth-child(6){
     grid-row: 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
   }
  
   /*---------------------------------------*/
@@ -138,8 +145,15 @@
   
   /*-------------Tours-----------------*/
   .tour-grid {
-    display: grid;
     grid-template-columns: 1fr 1fr;
   }
   /*---------------------------------*/
   
+/*--------------Service-------------*/
+  .service-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+  }
+  
+/*----------------------------*/  
+}

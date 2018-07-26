@@ -1,6 +1,6 @@
 {
   "service" : [
-  {
+  
     "name": "Carefree",
     "motto": "Basic Tune Up",
     "frameSaftey": 5,
@@ -9,7 +9,7 @@
     "lubeChain": 8,
     "boltsTorque": 4,
     "safteyCheck": 3,
-  } 
+  
   {
     "name": "Mudflinger",
     "motto": "Intermediate Tune Up",

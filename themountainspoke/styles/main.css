@@ -275,6 +275,24 @@ section h3{
     text-align: center  
   }
 
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: .05em;
+  justify-content: center;
+}
+
+.contact-grid section {
+  margin: 5px;
+  border: 3px solid #3c70a4;
+  padding: .5em;
+}
+
+.contact-grid section img {
+  width:100%;
+  height: auto;
+  box-shadow: 3px 3px 3px #bbb;
+}
 /*------------Forms--------------------------------*/
 form fieldset {
   margin: .5rem;
@@ -475,6 +493,25 @@ td{
 .tourinfo{
  text-align: center;
  color: #3c70a4; 
+}
+
+.tour-grid2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: .05em;
+  justify-content: center;
+}
+
+.tour-grid2 section {
+  margin: 5px;
+  border: 3px solid #3c70a4;
+  padding: .5em;
+}
+
+.tour-grid2 section img {
+  width:100%;
+  height: auto;
+  box-shadow: 3px 3px 3px #bbb;
 }
 /*------------------------------*/
 

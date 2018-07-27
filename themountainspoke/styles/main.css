@@ -135,16 +135,9 @@ footer {
   color: #fff;
   font-size: 1rem;
   clear: both;
-  flex-flow: column;
-  align-items: center;
-  justify-content: center;
   padding: 0;
-}
-
-footer {
   background-color: #cd4e47;
   color: #2a2e2e;
-  clear: both;
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -154,11 +147,6 @@ footer {
 
 footer p{
   margin: 0.2em;
-}
-
-footer.contact ul li{
-  align-content: center;
-  justify-content: center;
 }
 
 .footer-bar{
@@ -204,6 +192,10 @@ footer.contact ul li{
   font-size: 1rem;
 }
 
+.home-grid section a {
+    cursor: pointer;  
+}
+
 article.pages h3, section.mainimg h3{
   text-align: left;
   font-size: 2em;
@@ -243,9 +235,9 @@ article.pages h3, section.mainimg h3{
   font-size: 1rem;
 }
 
-section.mainimg h3{
+section h3{
   text-align: left;
-  font-size: 2em;
+  font-size: 1.8em;
 }
 
 .pages div{
@@ -378,6 +370,14 @@ form label.top input:required:valid {
 
 #accordion img{
   width: 100%;
+  height: auto;
+  box-shadow: 3px 3px 3px #bbb;
+}
+
+#accordion  {
+  margin: 5px;
+  border: 3px solid #3c70a4;
+  padding: .5em;
 }
 
 #accordion table {
@@ -393,7 +393,8 @@ form label.top input:required:valid {
     padding: 8px 11px;
     font-family: 'Chonburi', cursive;
     font-size: 1.4em;
-    margin: 5px;
+    margin:  15px 5px;
+    box-shadow: 3px 3px 3px #bbb;
 }
 
 .blue h3 {
@@ -401,9 +402,27 @@ form label.top input:required:valid {
     color: #fff; 
 }
 
+.sales-p{
+  text-align: center;
+  color: #3c70a4;
+}
+
+.sales-grid section {
+  margin: 5px;
+  border: 3px solid #3c70a4;
+  padding: .5em;
+}
+
+.sales-grid section img {
+  width:100%;
+  height: auto;
+  box-shadow: 3px 3px 3px #bbb;
+}
+
 /*----------Tables----------------*/
 table{
   width: 100%;
+  box-shadow: 3px 3px 3px #bbb;
 }
 
 table, th, td {
@@ -413,7 +432,7 @@ table, th, td {
 }
 
 th {
-  background-color: #3c70a4;
+  background-color: #cd4e47;
   font-size: 1.1em;
   color: #fff;
   font-family: 'Chonburi', cursive;
@@ -449,7 +468,8 @@ td{
 }
 
 .tour-grid section h3 {
-  margin-top: .5em;
+  margin-top: .2em;
+  font-size: 1.5em;
 }
 
 .tourinfo{
@@ -493,3 +513,21 @@ td{
   color: #3c70a4;
 }
 
+.service-grid2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: .05em;
+  justify-content: center;
+}
+
+.service-grid2 section {
+  margin: 5px;
+  border: 3px solid #3c70a4;
+  padding: .5em;
+}
+
+.service-grid2 section img {
+  width:100%;
+  height: auto;
+  box-shadow: 3px 3px 3px #bbb;
+}

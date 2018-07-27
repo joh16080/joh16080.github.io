@@ -568,3 +568,27 @@ td{
   height: auto;
   box-shadow: 3px 3px 3px #bbb;
 }
+/*-----------Video----------------*/
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: .05em;
+  justify-content: center;
+}
+
+.video-grid section {
+  margin: 5px;
+  border: 3px solid #3c70a4;
+  padding: .5em;
+}
+
+.video-grid section video {
+  width:100%;
+  height: auto;
+  box-shadow: 3px 3px 3px #bbb;
+}
+
+.video-p {
+  text-align: center;
+  color: #3c70a4;
+}
